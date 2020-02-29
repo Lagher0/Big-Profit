@@ -13,7 +13,7 @@ def dist2d(p1,p2):
 class hunt():
     def __init__(self,duration,pref_categories,radius,init_loc,user):
         self.start_time=time.clock()
-        self.duration=duration
+        self.end=self.start_time+duration
         self.radius=radius
         self.filter(pref_categories,init_loc)  
         self.score=0
@@ -21,19 +21,21 @@ class hunt():
         self.last_loc=init_loc
         
     def checktimeLimit(self): #checks if the game is over based on time limit
-        if self.duration<time.clock()-self.start_time:
+        if self.end<time.clock():
             return True
         return False
     
     def filter(self,prefs,init_loc): # filters the list based on type preferences and radius
         conn=sqlite3.connect('db.sqlite3')
         c=conn.cursor()
-        category_filter=[]
         self.locations=[]
-        for preference in prefs:  #select each prerence match with a query and then concat lists
+        if prefs=="all":
+            self.locations=c.execute("SELECT * FROM locations").fetchall()
+        else:
+            for preference in prefs:  #select each prerence match with a query and then concat lists
              location=c.execute("SELECT * FROM locations WHERE type='%s'" % preference).fetchall()
-             self.locations+=location
-        for location in category_filter: #then remove locations that are too far away
+             self.locations+=location       
+        for location in self.locations: #then remove locations that are too far away
             distance=dist2d(init_loc,(location[2],location[3]))
             if(distance>self.radius):
                 self.locations.remove(location)
@@ -47,8 +49,21 @@ class hunt():
             self.score=int(round(self.score,0)) 
             self.last_loc=current_loc
             del self.locations[0]
+            #self.detour()
             return True
         return False
+    def detour(self):
+        x=input()
+        if x=='0':
+            del self.locations[1]
+        else:
+            del self.locations[0]
+    def estimate_time(self,current_loc,estimate_speed):
+        distance=dist2d(current_loc,(self.locations[0][2],self.locations[0][3]))
+        time_req=distance/estimate_speed
+        if self.end-time.clock()< time_req:
+            print("Not enough time to reach destination")
+        return time_req
         
             
 
@@ -61,11 +76,25 @@ class hunt():
         
             
 def main():
-    firstHunt=hunt(5,['uni-life','historic'],60,(23,10),"user")
+    firstHunt=hunt(10,"all",60,(23,10),"user")
     print(firstHunt.locations)
-    firstHunt.verify((44,1))
-    firstHunt.verify((43,1))
-    print(firstHunt.locations)
+    current_loc=(0,0)
+    while not len(firstHunt.locations)==0 and not firstHunt.checktimeLimit():
+       
+        while not firstHunt.verify((current_loc)) and not firstHunt.checktimeLimit():
+             time.sleep(0.05)
+             if current_loc[0]> firstHunt.locations[0][2]:
+                 current_loc=(current_loc[0]-1,current_loc[1])
+             elif current_loc[0] < firstHunt.locations[0][2]:
+                 current_loc= (current_loc[0]+1,current_loc[1])
+             if current_loc[1]> firstHunt.locations[0][3]:
+                 current_loc=(current_loc[0],current_loc[1]-1)
+             elif current_loc[1] < firstHunt.locations[0][3]:
+                 current_loc=(current_loc[0],current_loc[1]+1)
+                
+            
+            
+    print(len(firstHunt.locations))
     print(firstHunt.score)
     
     
