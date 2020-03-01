@@ -1,11 +1,126 @@
 {% load staticfiles %}
 <!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
-  <title>Hello, World!</title>
+  <title>Day Out Edinburgh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=411, initial-scale=1, shrink-to-fit=yes">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Pacifico&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <style>
+    body{
+      font-size:3vw;
+      background-color: #99dae8;
+      font-family: 'Alegreya Sans SC';
+    }
+    .landing{
+      background-image: url("{% static 'img/bg2.png' %}");
+      background-size: cover;
+      background-repeat:no-repeat;
+    }
+    #title_text{
+      font-family: 'Pacifico';
+      margin:0.2em;
+
+    }
+    #welcome_box{
+      display:block;
+      border-radius:0.2em;
+      width:90%;
+      padding: 2em 1em;
+    background-color: rgba(255,255,255,0.25);
+    transition: 1s;
+}
+.vertical_centre{
+  position:absolute;
+  top:40%;
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+  margin:0.1em;
+  width:95%;
+}
+    .button{
+      font-family: 'Alegreya Sans SC';
+      font-size: 3em;
+      background-color: #00abd1;
+      color: white;
+      border-radius:0.2em;
+      padding: 0.1em 0.5em;
+      border:none;
+      margin:0.25em;
+    }
+    .button:hover{
+      cursor:pointer;
+      background-color:black;
+    }
+    #landing_buttons{
+      margin-top:3em;
+    }
+    #filter_page{
+      font-size:2em;
+    }
+    input[type=checkbox]{
+      width:1.5em;
+      height:1.5em;
+    }
+    input[type=radio]{
+      width:1.5em;
+      height:1.5em;
+    }
+
+  </style>
 </head>
 <body>
-  Hello, World! <br>Now I can make the frontend pretty. :)
-</body>
+  <div id = container>
+  <div class = "vertical_centre">
+    <center>
+  <div id = "welcome_box">
+<div id = "title_text">
+<div style="font-size: 3em;">Day Out</div><div style="font-size:5em">Edinburgh</div>
+</div>
 
+<div id = "filter_page">
+<center><h2>Your Quest</h2></center>
+<form action="/startadventure/" method="post">{% csrf_token %}
+How much time do you have?<br><input type="radio" name="time_option" value="1" id="1hr"><label for="1hr">1 hr</label> <input type="radio" name="time_option" value="3" id="3hr"><label for="3hr">3 hr</label> <input type="radio" name="time_option" value="6" id="6hr"><label for="6hr">6 hr</label> <input type="radio" name="time_option" value="12" id="12hr"><label for="12hr">12 hr</label>
+<br>
+<br>
+Interests:<br><input type="checkbox" name="category[]" value = "option1" id="option1"/><label for="option1">Option1</label> <input type="checkbox" name="category[]" value = "option2" id="option2"><label for="option2">Option2</label> <input type="checkbox" name="category[]" value = "option3" id="option3"><label for="option3">Option3</label>
+<br>
+<br>
+Don't travel more than:<br><input type="radio" name="distance_option" value="0.5" id="0.5mi"><label for="0.5mi">0.5 mi</label> <input type="radio" name="distance_option" value="1" id="1mi"><label for = "1mi">1 mi </label><input type="radio" name="distance_option" value="2" id="2mi"><label for="2mi">2 mi</label>
+<button type="submit" class="button" style="font-size:1.5em">Let's Go!</button>
+</form>
+<br>
+
+</div>
+
+</div>
+<div id = "landing_buttons">
+<button class = "button" id = "start_button" style="font-size:4em;">Start</button>
+<br>
+<button class = "button" id = "about_button">About</button>
+</div>
+</center>
+</div>
+<div style="position:absolute; bottom:0;left:25%;transform:translateY(-25%);-ms-transform: translateY(-25%);color:white;font-size:1.2em">	&copy;Big Profit, Hack The Burgh 2020</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $("#about_button").show();
+    $("#start_button").show();
+    $("#filter_page").hide();
+    $("body").addClass("landing");
+  });
+  $("#start_button").click(function(){
+    $("#landing_buttons").fadeOut();
+    $("#title_text").fadeOut();
+    $("#filter_page").fadeIn();
+    $("#welcome_box").css('background-color','rgba(255,255,255,0.75)');
+
+  });
+</script>
+</body>
 </html>
