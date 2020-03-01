@@ -52,24 +52,18 @@ class hunt():
             #self.detour()
             return True
         return False
-    def detour(self): #allows pick between next location, and the one after that
+    def detour(self):
         x=input()
         if x=='0':
             del self.locations[1]
         else:
             del self.locations[0]
-    def estimate_time(self,current_loc,estimate_speed): #estimates how much time is needed to reach next location
+    def estimate_time(self,current_loc,estimate_speed):
         distance=dist2d(current_loc,(self.locations[0][2],self.locations[0][3]))
         time_req=distance/estimate_speed
         if self.end-time.clock()< time_req:
             print("Not enough time to reach destination")
-            return False
         return time_req
-    def ignore(self): #to ignore challange to go to a place
-        del self.locations[0]
-    def displayTime(self):
-        remaining_time=self.end-time.clock()
-        return int(remaining_time)
         
             
 
@@ -83,13 +77,12 @@ class hunt():
             
 def main():
     firstHunt=hunt(10,"all",60,(23,10),"user")
-   
+    print(firstHunt.locations)
     current_loc=(0,0)
     while not len(firstHunt.locations)==0 and not firstHunt.checktimeLimit():
        
         while not firstHunt.verify((current_loc)) and not firstHunt.checktimeLimit():
              time.sleep(0.05)
-             
              if current_loc[0]> firstHunt.locations[0][2]:
                  current_loc=(current_loc[0]-1,current_loc[1])
              elif current_loc[0] < firstHunt.locations[0][2]:
@@ -110,5 +103,3 @@ def main():
      
 if __name__== "__main__":
   main()
-        
-        
