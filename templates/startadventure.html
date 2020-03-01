@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=400, initial-scale=1, shrink-to-fit=yes">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Pacifico&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css' rel='stylesheet' />
   <style>
   body{
     font-size:3vw;
@@ -17,15 +19,138 @@
     margin:0;
     padding:0
   }
+  .button{
+    font-family: 'Alegreya Sans SC';
+    font-size: 1em;
+    background-color: #00abd1;
+    color: white;
+    border-radius:0.2em;
+    padding: 0.1em 0.5em;
+    border:none;
+    margin:0.25em;
+    border: white solid medium;
+    margin-top:0.5em;
+  }
+  .button:hover{
+    cursor:pointer;
+    background-color:black;
+  }
   </style>
 </head>
 <body>
-  <header style="background-color:#00abd1;margin:none;padding:1em;width:100%;font-size:2em; color:white"><center>Score: {{score}}</center></header>
+  <header style="background-color:#00abd1;margin:none;position:absolute;padding:1em;width:100%;font-size:2em; z-index:2; color:white"><center>Score: {{dahunt.score}} </center></header>
+
+<div id = "promptwindow" style="z-index:3;position:absolute;background-color:#00abd1;border-radius:1em;border:solid white medium; color:white; font-size:2em; padding:0.5em; bottom:40%;top:30%;right:10%;left:10%">
+  <center><div style="font-family:'Pacifico';font-size:1em;margin-bottom:0.5em">Your Task:</div>Go to {{ dahunt.locations.0.1}}.<br><button class="button">Accept</button><button class="button">Reject</button> </center></div>
+<div id='map' style='margin:0;width: 100%; bottom:0;top:0;right:0;left:0;position:absolute;z-index:-1;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiYmlncHJvZml0IiwiYSI6ImNrNzhkc240aTBoa2Mza29kdDlicG15NDcifQ.dR8hbbiQuJlUPsyrcUrRiA';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [-3.187020,55.944395], // starting position [lng, lat]
+  zoom: 12, // starting zoom
+  pitch: 30,
+bearing: 15,
+});
+
+
+map.on('load', function() {
+  var layers = map.getStyle().layers;
+
+var labelLayerId;
+for (var i = 0; i < layers.length; i++) {
+  if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
+      labelLayerId = layers[i].id;
+      break;
+  }
+}
+
+map.addLayer(
+  {
+      'id': '3d-buildings',
+      'source': 'composite',
+      'source-layer': 'building',
+      'filter': ['==', 'extrude', 'true'],
+      'type': 'fill-extrusion',
+      'minzoom': 12,
+      'paint': {
+          'fill-extrusion-color': '#b0e4e8',
+
+          // use an 'interpolate' expression to add a smooth transition effect to the
+          // buildings as the user zooms in
+          'fill-extrusion-height': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              12,
+              0,
+              20,
+              ['get', 'height']
+          ],
+          'fill-extrusion-base': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              12,
+              0,
+              20,
+              ['get', 'min_height']
+          ],
+          'fill-extrusion-opacity': 0.6
+      }
+  },
+  labelLayerId
+);
+
+    map.loadImage(
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cat_silhouette.svg/400px-Cat_silhouette.svg.png',
+        function(error, image) {
+            if (error) throw error;
+            map.addImage('cat', image);
+            map.addSource('point', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'FeatureCollection',
+                    'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                                'type': 'Point',
+                                'coordinates': [-3.187020,55.944395]
+                            }
+                        }
+                    ]
+                }
+            });
+            map.addLayer({
+                'id': 'points',
+                'type': 'symbol',
+                'source': 'point',
+                'layout': {
+                    'icon-image': 'cat',
+                    'icon-size': 0.25
+                }
+            });
+        }
+    );
+
+});
+
+var marker = new mapboxgl.Marker({
+   })
+   .setLngLat(['{{ dahunt.locations.0.2 }}','{{ dahunt.locations.0.3 }}'])
+        .addTo(map);
+</script>
 
   <script>
   console.log("{{ time_option }}");
   console.log("{{ category }}");
   console.log("{{ distance_option }}");
+  console.log("{{ dahunt.locations.0}}");
+  console.log("{{dahunt.start_time}}");
+  console.log("{{dahunt.duration}}");
+
 </script>
 </body>
 </html>
