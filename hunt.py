@@ -105,9 +105,12 @@ class hunt():
                 
          
     def print_next_Dest(self):
+        self.UpdateScore()
         if len(self.locations)>0:
-                print("\nNext, go to: "+self.locations[0][1])
+                print("Next, go to: "+self.locations[0][1])
                 time.sleep(1)
+    def UpdateScore(self):
+        print("\nCurrent score: {0}".format(self.score))
         
              
         
@@ -123,19 +126,21 @@ class hunt():
         
             
 def main():
+    print("Let the game begin!")
+    time.sleep(5)
     step_size=0.00001
-    firstHunt=hunt(1,12,"all",(-3.18634,55.953472))
-    data_size=len(firstHunt.locations)
-    print(firstHunt.locations)
-    print(data_size)
     current_loc=(-3.186034,55.953472)
+    firstHunt=hunt(1/60.0,12,"all",current_loc)
+    data_size=len(firstHunt.locations)
+    #print(firstHunt.locations)
+    #print(data_size)
     firstHunt.move(current_loc,step_size)
     
                 
             
-            
-    print(data_size-len(firstHunt.locations))
-    print(firstHunt.score)
+    print("\nTimes up! Let's see how you did:")        
+    print("\nPlaces visited: {0}".format(data_size-len(firstHunt.locations)))
+    print("Final score: {0}".format(firstHunt.score))
     
     
         
