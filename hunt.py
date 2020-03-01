@@ -55,7 +55,6 @@ class hunt():
             self.score=int(round(self.score,0)) 
             self.last_loc=current_loc
             del self.locations[0]
-            #self.detour()
             return True
         return False
     def detour(self):
@@ -76,6 +75,21 @@ class hunt():
     def display_Time(self):
         remaining_time=self.end-time.clock()
         return int(remaining_time)
+    def move(self,current_loc,step_size):
+        while not len(self.locations)==0 and not self.checktimeLimit():
+         
+       
+         while not self.verify((current_loc)) and not self.checktimeLimit():
+             if current_loc[0]> self.locations[0][2]:
+                 current_loc=(current_loc[0]-step_size,current_loc[1])
+             elif current_loc[0] < self.locations[0][2]:
+                 current_loc= (current_loc[0]+step_size,current_loc[1])
+             if current_loc[1]> self.locations[0][3]:
+                 current_loc=(current_loc[0],current_loc[1]-step_size)
+             elif current_loc[1] < self.locations[0][3]:
+                 current_loc=(current_loc[0],current_loc[1]+step_size)
+             
+        
         
             
 
@@ -89,23 +103,13 @@ class hunt():
             
 def main():
     step_size=0.00001
-    firstHunt=hunt(1,0.7,"all",(-3.18634,55.953472))
+    firstHunt=hunt(1,4,"all",(-3.18634,55.953472))
     data_size=len(firstHunt.locations)
     print(firstHunt.locations)
     print(data_size)
     current_loc=(-3.186034,55.953472)
-    while not len(firstHunt.locations)==0 and not firstHunt.checktimeLimit():
-        print(firstHunt.locations[0][1])
-       
-        while not firstHunt.verify((current_loc)) and not firstHunt.checktimeLimit():
-             if current_loc[0]> firstHunt.locations[0][2]:
-                 current_loc=(current_loc[0]-step_size,current_loc[1])
-             elif current_loc[0] < firstHunt.locations[0][2]:
-                 current_loc= (current_loc[0]+step_size,current_loc[1])
-             if current_loc[1]> firstHunt.locations[0][3]:
-                 current_loc=(current_loc[0],current_loc[1]-step_size)
-             elif current_loc[1] < firstHunt.locations[0][3]:
-                 current_loc=(current_loc[0],current_loc[1]+step_size)
+    firstHunt.move(current_loc,step_size)
+    
                 
             
             
