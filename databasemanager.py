@@ -46,7 +46,7 @@ for i in range(0,len(places)):
                     pass
     #c.execute(''' INSERT INTO locations  VALUES (?,?,?,?) ''', values)
     
-
+#
 
 #for row in c.execute('SELECT * FROM locations '):
  #   print(row)
