@@ -7,6 +7,7 @@ Created on Sat Feb 29 15:59:47 2020
 @author: Bence
 """
 import time
+import sys
 import sqlite3
 import math
 import random
@@ -54,7 +55,7 @@ class hunt():
             self.score+=dist_for_points* 10000 #might need to change variable later
             self.score=int(round(self.score,0)) 
             self.last_loc=current_loc
-            del self.locations[0]
+            del self.locations[0]                            
             return True
         return False
     def detour(self):
@@ -77,9 +78,10 @@ class hunt():
         return int(remaining_time)
     def move(self,current_loc,step_size):
         while not len(self.locations)==0 and not self.checktimeLimit():
-         
-       
-         while not self.verify((current_loc)) and not self.checktimeLimit():
+            self.print_next_Dest()
+            while not self.verify((current_loc)) and not self.checktimeLimit():
+             sys.stdout.write("\r Currently at: ({0}),({1})".format( current_loc[0] , current_loc[1]))
+             sys.stdout.flush()
              if current_loc[0]> self.locations[0][2]:
                  current_loc=(current_loc[0]-step_size,current_loc[1])
              elif current_loc[0] < self.locations[0][2]:
@@ -88,6 +90,25 @@ class hunt():
                  current_loc=(current_loc[0],current_loc[1]-step_size)
              elif current_loc[1] < self.locations[0][3]:
                  current_loc=(current_loc[0],current_loc[1]+step_size)
+    def move_Frame(self,current_loc,step_size):
+        if not len(self.locations)==0 and not self.checktimeLimit():
+            if not self.verify((current_loc)) and not self.checktimeLimit():
+             if current_loc[0]> self.locations[0][2]:
+                 current_loc=(current_loc[0]-step_size,current_loc[1])
+             elif current_loc[0] < self.locations[0][2]:
+                 current_loc= (current_loc[0]+step_size,current_loc[1])
+             if current_loc[1]> self.locations[0][3]:
+                 current_loc=(current_loc[0],current_loc[1]-step_size)
+             elif current_loc[1] < self.locations[0][3]:
+                 current_loc=(current_loc[0],current_loc[1]+step_size)
+        return current_loc
+                
+         
+    def print_next_Dest(self):
+        if len(self.locations)>0:
+                print("\nNext, go to: "+self.locations[0][1])
+                time.sleep(1)
+        
              
         
         
@@ -103,7 +124,7 @@ class hunt():
             
 def main():
     step_size=0.00001
-    firstHunt=hunt(1,4,"all",(-3.18634,55.953472))
+    firstHunt=hunt(1,12,"all",(-3.18634,55.953472))
     data_size=len(firstHunt.locations)
     print(firstHunt.locations)
     print(data_size)
