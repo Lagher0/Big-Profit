@@ -17,13 +17,12 @@ def hour_toSeconds(hours):
 def miles_toLat(miles):
     return miles/69.0
 class hunt():
-    def __init__(self,duration,pref_categories,radius,init_loc,user):
+    def __init__(self,duration,radius,pref_categories="all",init_loc=(-3.181126, 55.945683)):
         self.start_time=time.clock()
         self.end=self.start_time+hour_toSeconds(duration)
         self.radius=miles_toLat(radius)
         self.filter(pref_categories,init_loc)  
         self.score=0
-        self.user=user
         self.last_loc=init_loc
         
     def checktimeLimit(self): #checks if the game is over based on time limit
@@ -90,9 +89,9 @@ class hunt():
             
 def main():
     step_size=0.00001
-    firstHunt=hunt(1,"all",0.7,(-3.18634,55.953472),"user")
+    firstHunt=hunt(1,0.7,"all",(-3.18634,55.953472))
     data_size=len(firstHunt.locations)
-    #print(firstHunt.locations)
+    print(firstHunt.locations)
     print(data_size)
     current_loc=(-3.186034,55.953472)
     while not len(firstHunt.locations)==0 and not firstHunt.checktimeLimit():
