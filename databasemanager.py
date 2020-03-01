@@ -29,24 +29,24 @@ c.execute( '''CREATE TABLE IF NOT EXISTS link (link_id text NOT NULL PRIMARY KEY
 for i in range(0,len(places)):
     places_dic = places[i]
     values = [places_dic['xid'],places_dic['name'],places_dic['point']['lon'],places_dic['point']['lat']]
-    values2 = [i]
+    list_of_places = []
+
     for item in re.split(',', places_dic['kinds']):
-        j = 0
-        if i == 0 and j == 0:
+        if i == 0:
+            list_of_places.append(item)
             c.execute('''INSERT INTO  categories VALUES (?,?) ''', [str(i)+str(random.randint(1000,10200401201)),item])
-            print("Sucess")
-        else:     
-            for value in c.execute('''SELECT category FROM categories'''):
-                value = re.sub('[^a-zA-Z0-9_]','',value)
-                print(value)
-                if value != item:
-                    print("I'm here!")
+        else:
+            for element in list_of_places:
+                print(element)
+                if element != item:
+                    print("Hurray")
                     c.execute('''INSERT INTO  categories VALUES (?,?) ''', [str(i)+str(random.randint(1000,10200401201)),item])
                 else:
                     pass
+
     #c.execute(''' INSERT INTO locations  VALUES (?,?,?,?) ''', values)
     
-#
+
 
 #for row in c.execute('SELECT * FROM locations '):
  #   print(row)
