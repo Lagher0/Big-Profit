@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Feb 29 15:59:47 2020
-
+0.0001 lat = 11 meters
+1 mile =1609.34
+1 lat =69 miles
 @author: Bence
 """
 import time
@@ -10,11 +12,15 @@ import math
 import random
 def dist2d(p1,p2):
     return math.sqrt(math.pow(p1[0]-p2[0],2)+math.pow(p1[1]-p2[1],2))
+def hour_toSeconds(hours):
+    return hours*3600
+def miles_toLat(miles):
+    return miles/69.0
 class hunt():
     def __init__(self,duration,pref_categories,radius,init_loc,user):
         self.start_time=time.clock()
-        self.end=self.start_time+duration
-        self.radius=radius
+        self.end=self.start_time+hour_toSeconds(duration)
+        self.radius=miles_toLat(radius)
         self.filter(pref_categories,init_loc)  
         self.score=0
         self.user=user
@@ -44,7 +50,7 @@ class hunt():
         
     def verify(self,current_loc): # checks if user is close enough to the location,if yes, location is removed from and points are awarded
         distance=dist2d(current_loc,(self.locations[0][2],self.locations[0][3]))
-        if distance<0.000006 : #distance might need to change here
+        if distance<0.0006 : #distance approximately 60 meters to verify arriving to destination
             dist_for_points=dist2d(self.last_loc,current_loc)
             self.score+=dist_for_points* 10000 #might need to change variable later
             self.score=int(round(self.score,0)) 
@@ -83,13 +89,14 @@ class hunt():
         
             
 def main():
-    step_size=0.0000001
-    firstHunt=hunt(10,"all",0.009,(-3.18634,55.953472),"user")
+    step_size=0.00001
+    firstHunt=hunt(1,"all",0.7,(-3.18634,55.953472),"user")
     data_size=len(firstHunt.locations)
     #print(firstHunt.locations)
     print(data_size)
     current_loc=(-3.186034,55.953472)
     while not len(firstHunt.locations)==0 and not firstHunt.checktimeLimit():
+        print(firstHunt.locations[0][1])
        
         while not firstHunt.verify((current_loc)) and not firstHunt.checktimeLimit():
              if current_loc[0]> firstHunt.locations[0][2]:
