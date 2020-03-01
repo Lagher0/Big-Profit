@@ -44,7 +44,7 @@ for i in range(0,len(places)):
                 else:
                     pass
 
-    #c.execute(''' INSERT INTO locations  VALUES (?,?,?,?) ''', values)
+    c.execute(''' INSERT INTO locations  VALUES (?,?,?,?) ''', values)
     
 
 

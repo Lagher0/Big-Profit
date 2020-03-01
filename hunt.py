@@ -29,23 +29,24 @@ class hunt():
         conn=sqlite3.connect('db.sqlite3')
         c=conn.cursor()
         self.locations=[]
+        type_filtered=[]
         if prefs=="all":
-            self.locations=c.execute("SELECT * FROM locations").fetchall()
+            type_filtered=c.execute("SELECT * FROM locations").fetchall()
         else:
             for preference in prefs:  #select each prerence match with a query and then concat lists
              location=c.execute("SELECT * FROM locations WHERE type='%s'" % preference).fetchall()
-             self.locations+=location       
-        for location in self.locations: #then remove locations that are too far away
+             type_filtered.append(location)       
+        for location in type_filtered: #then remove locations that are too far away
             distance=dist2d(init_loc,(location[2],location[3]))
-            if(distance>self.radius):
-                self.locations.remove(location)
+            if(distance<self.radius):
+                self.locations.append(location)
         random.shuffle(self.locations) #to shuffle locations randomly
         
     def verify(self,current_loc): # checks if user is close enough to the location,if yes, location is removed from and points are awarded
         distance=dist2d(current_loc,(self.locations[0][2],self.locations[0][3]))
-        if distance<0.00060 : #distance might need to change here
+        if distance<0.000006 : #distance might need to change here
             dist_for_points=dist2d(self.last_loc,current_loc)
-            self.score+=dist_for_points* 100 #might need to change variable later
+            self.score+=dist_for_points* 10000 #might need to change variable later
             self.score=int(round(self.score,0)) 
             self.last_loc=current_loc
             del self.locations[0]
@@ -64,6 +65,12 @@ class hunt():
         if self.end-time.clock()< time_req:
             print("Not enough time to reach destination")
         return time_req
+    def ignore(self):
+        if len(self.locations)!=0:
+            del self.locations[0]
+    def display_Time(self):
+        remaining_time=self.end-time.clock()
+        return int(remaining_time)
         
             
 
@@ -76,25 +83,27 @@ class hunt():
         
             
 def main():
-    firstHunt=hunt(10,"all",60,(23,10),"user")
-    print(firstHunt.locations)
-    current_loc=(0,0)
+    step_size=0.0000001
+    firstHunt=hunt(10,"all",0.009,(-3.18634,55.953472),"user")
+    data_size=len(firstHunt.locations)
+    #print(firstHunt.locations)
+    print(data_size)
+    current_loc=(-3.186034,55.953472)
     while not len(firstHunt.locations)==0 and not firstHunt.checktimeLimit():
        
         while not firstHunt.verify((current_loc)) and not firstHunt.checktimeLimit():
-             time.sleep(0.05)
              if current_loc[0]> firstHunt.locations[0][2]:
-                 current_loc=(current_loc[0]-1,current_loc[1])
+                 current_loc=(current_loc[0]-step_size,current_loc[1])
              elif current_loc[0] < firstHunt.locations[0][2]:
-                 current_loc= (current_loc[0]+1,current_loc[1])
+                 current_loc= (current_loc[0]+step_size,current_loc[1])
              if current_loc[1]> firstHunt.locations[0][3]:
-                 current_loc=(current_loc[0],current_loc[1]-1)
+                 current_loc=(current_loc[0],current_loc[1]-step_size)
              elif current_loc[1] < firstHunt.locations[0][3]:
-                 current_loc=(current_loc[0],current_loc[1]+1)
+                 current_loc=(current_loc[0],current_loc[1]+step_size)
                 
             
             
-    print(len(firstHunt.locations))
+    print(data_size-len(firstHunt.locations))
     print(firstHunt.score)
     
     
