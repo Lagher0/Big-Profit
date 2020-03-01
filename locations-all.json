@@ -1,0 +1,2937 @@
+[
+  {
+    "xid": "N3072411821",
+    "name": "Surgeons' Hall Museums",
+    "rate": 7,
+    "osm": "node/3072411821",
+    "wikidata": "Q7646188",
+    "kinds": "museums,science_museums,cultural,interesting_places",
+    "point": {
+      "lon": -3.18468,
+      "lat": 55.946766
+    }
+  },
+  {
+    "xid": "W41299975",
+    "name": "National War Museum",
+    "rate": 7,
+    "osm": "way/41299975",
+    "wikidata": "Q6979345",
+    "kinds": "national_museums,museums,cultural,interesting_places,military_museums",
+    "point": {
+      "lon": -3.201913,
+      "lat": 55.948853
+    }
+  },
+  {
+    "xid": "W5182745",
+    "name": "Royal Scottish Academy",
+    "rate": 7,
+    "osm": "way/5182745",
+    "wikidata": "Q2070445",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.196272,
+      "lat": 55.95166
+    }
+  },
+  {
+    "xid": "W5182746",
+    "name": "Scottish National Gallery",
+    "rate": 7,
+    "osm": "way/5182746",
+    "wikidata": "Q942713",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.195619,
+      "lat": 55.950882
+    }
+  },
+  {
+    "xid": "W256067257",
+    "name": "Craiglockhart",
+    "rate": 7,
+    "osm": "way/256067257",
+    "wikidata": "Q5181716",
+    "kinds": "fortifications,historical_places,historic,monuments_and_memorials,interesting_places,historic_districts,castles,monuments",
+    "point": {
+      "lon": -3.23948,
+      "lat": 55.920502
+    }
+  },
+  {
+    "xid": "N1867328561",
+    "name": "Old Town",
+    "rate": 7,
+    "osm": "node/1867328561",
+    "wikidata": "Q591133",
+    "kinds": "historical_places,historic,interesting_places,historic_districts",
+    "point": {
+      "lon": -3.191454,
+      "lat": 55.94957
+    }
+  },
+  {
+    "xid": "W333902323",
+    "name": "Craiglockhart Castle",
+    "rate": 7,
+    "osm": "way/333902323",
+    "wikidata": "Q5181716",
+    "kinds": "historic_architecture,architecture,fortifications,historic,monuments_and_memorials,interesting_places,destroyed_objects,castles,monuments",
+    "point": {
+      "lon": -3.238325,
+      "lat": 55.919308
+    }
+  },
+  {
+    "xid": "N493402397",
+    "name": "Merchiston Tower",
+    "rate": 7,
+    "osm": "node/493402397",
+    "wikidata": "Q1921452",
+    "kinds": "fortifications,historic,monuments_and_memorials,interesting_places,castles,monuments",
+    "point": {
+      "lon": -3.213915,
+      "lat": 55.933327
+    }
+  },
+  {
+    "xid": "W4301292",
+    "name": "Edinburgh Castle",
+    "rate": 7,
+    "osm": "way/4301292",
+    "wikidata": "Q212065",
+    "kinds": "fortifications,historic,monuments_and_memorials,museums,archaeology,cultural,interesting_places,castles,other_museums,other_archaeological_sites,monuments",
+    "point": {
+      "lon": -3.20041,
+      "lat": 55.948689
+    }
+  },
+  {
+    "xid": "R298677",
+    "name": "Greyfriars Kirkyard",
+    "rate": 7,
+    "osm": "relation/298677",
+    "wikidata": "Q2876448",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.192895,
+      "lat": 55.946827
+    }
+  },
+  {
+    "xid": "W42997989",
+    "name": "The Hub",
+    "rate": 7,
+    "osm": "way/42997989",
+    "wikidata": "Q1453649",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.195154,
+      "lat": 55.948784
+    }
+  },
+  {
+    "xid": "W42400728",
+    "name": "Tron Kirk",
+    "rate": 7,
+    "osm": "way/42400728",
+    "wikidata": "Q11839033",
+    "kinds": "religion,churches,urban_environment,cultural,interesting_places,squares,other_churches",
+    "point": {
+      "lon": -3.187712,
+      "lat": 55.949951
+    }
+  },
+  {
+    "xid": "W233934113",
+    "name": "St Mary's Metropolitan Cathedral (RC)",
+    "rate": 7,
+    "osm": "way/233934113",
+    "wikidata": "Q519072",
+    "kinds": "religion,churches,cathedrals,interesting_places,catholic_churches",
+    "point": {
+      "lon": -3.187944,
+      "lat": 55.956066
+    }
+  },
+  {
+    "xid": "W42861308",
+    "name": "Augustine United Church",
+    "rate": 7,
+    "osm": "way/42861308",
+    "wikidata": "Q4821219",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.191194,
+      "lat": 55.947655
+    }
+  },
+  {
+    "xid": "W61888751",
+    "name": "Charlotte Chapel",
+    "rate": 7,
+    "osm": "way/61888751",
+    "wikidata": "Q5085839",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.210515,
+      "lat": 55.949421
+    }
+  },
+  {
+    "xid": "W81243762",
+    "name": "St Andrew's and St George's West",
+    "rate": 7,
+    "osm": "way/81243762",
+    "wikidata": "Q7592411",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.195863,
+      "lat": 55.954071
+    }
+  },
+  {
+    "xid": "W62061368",
+    "name": "The Parish Church of St Cuthbert",
+    "rate": 7,
+    "osm": "way/62061368",
+    "wikidata": "Q7756122",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.205055,
+      "lat": 55.949635
+    }
+  },
+  {
+    "xid": "W486543871",
+    "name": "Saint Catherine's Argyle",
+    "rate": 7,
+    "osm": "way/486543871",
+    "wikidata": "Q16900434",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.190208,
+      "lat": 55.935696
+    }
+  },
+  {
+    "xid": "W367465840",
+    "name": "St. John's RC Church",
+    "rate": 7,
+    "osm": "way/367465840",
+    "wikidata": "Q17570327",
+    "kinds": "religion,churches,interesting_places,catholic_churches",
+    "point": {
+      "lon": -3.115393,
+      "lat": 55.951797
+    }
+  },
+  {
+    "xid": "W22938984",
+    "name": "Scottish National Gallery of Modern Art One",
+    "rate": 7,
+    "osm": "way/22938984",
+    "wikidata": "Q1889944",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.227648,
+      "lat": 55.950836
+    }
+  },
+  {
+    "xid": "W26564861",
+    "name": "Festival Theatre",
+    "rate": 7,
+    "osm": "way/26564861",
+    "wikidata": "Q3047596",
+    "kinds": "cultural,theatres_and_entertainments,interesting_places,opera_houses",
+    "point": {
+      "lon": -3.186462,
+      "lat": 55.946568
+    }
+  },
+  {
+    "xid": "W230567157",
+    "name": "Usher Hall",
+    "rate": 7,
+    "osm": "way/230567157",
+    "wikidata": "Q1636910",
+    "kinds": "theatres_and_entertainments,concert_halls,cultural,interesting_places",
+    "point": {
+      "lon": -3.204931,
+      "lat": 55.947258
+    }
+  },
+  {
+    "xid": "R1669488",
+    "name": "Lauriston Castle",
+    "rate": 7,
+    "osm": "relation/1669488",
+    "wikidata": "Q2969689",
+    "kinds": "fortifications,historic,monuments_and_memorials,interesting_places,castles,monuments",
+    "point": {
+      "lon": -3.27865,
+      "lat": 55.971214
+    }
+  },
+  {
+    "xid": "W70955026",
+    "name": "Carrubbers Christian Centre",
+    "rate": 7,
+    "osm": "way/70955026",
+    "wikidata": "Q5046745",
+    "kinds": "religion,churches,urban_environment,cultural,interesting_places,squares,other_churches",
+    "point": {
+      "lon": -3.185634,
+      "lat": 55.950756
+    }
+  },
+  {
+    "xid": "W29209468",
+    "name": "Duddingston Kirk",
+    "rate": 7,
+    "osm": "way/29209468",
+    "wikidata": "Q5311666",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.149049,
+      "lat": 55.941189
+    }
+  },
+  {
+    "xid": "W67524350",
+    "name": "Mayfield Salisbury Parish Church",
+    "rate": 7,
+    "osm": "way/67524350",
+    "wikidata": "Q6797195",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.17712,
+      "lat": 55.933002
+    }
+  },
+  {
+    "xid": "W352560423",
+    "name": "Reid Memorial Church",
+    "rate": 7,
+    "osm": "way/352560423",
+    "wikidata": "Q16736136",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.184809,
+      "lat": 55.926445
+    }
+  },
+  {
+    "xid": "W292183348",
+    "name": "St Patrick's RC Church",
+    "rate": 7,
+    "osm": "way/292183348",
+    "wikidata": "Q17811276",
+    "kinds": "religion,churches,interesting_places,catholic_churches",
+    "point": {
+      "lon": -3.1845,
+      "lat": 55.949661
+    }
+  },
+  {
+    "xid": "W73094226",
+    "name": "Greenside Parish Church",
+    "rate": 7,
+    "osm": "way/73094226",
+    "wikidata": "Q1544789",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.182179,
+      "lat": 55.956974
+    }
+  },
+  {
+    "xid": "W22412844",
+    "name": "National Monument of Scotland",
+    "rate": 7,
+    "osm": "way/22412844",
+    "wikidata": "Q6974379",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.181924,
+      "lat": 55.954739
+    }
+  },
+  {
+    "xid": "W62066717",
+    "name": "Ross Fountain",
+    "rate": 7,
+    "osm": "way/62066717",
+    "wikidata": "Q7369346",
+    "kinds": "fountains,historic,monuments_and_memorials,urban_environment,cultural,interesting_places,monuments",
+    "point": {
+      "lon": -3.203042,
+      "lat": 55.950058
+    }
+  },
+  {
+    "xid": "N766185386",
+    "name": "The Caley Picture House",
+    "rate": 7,
+    "osm": "node/766185386",
+    "wikidata": "Q16256108",
+    "kinds": "architecture,pubs,tourist_facilities,historic_architecture,nightclubs,cultural,cinemas,theatres_and_entertainments,interesting_places,adult,music_venues,foods,other_buildings_and_structures",
+    "point": {
+      "lon": -3.206077,
+      "lat": 55.94825
+    }
+  },
+  {
+    "xid": "N5002102711",
+    "name": "Scottish National War Memorial",
+    "rate": 7,
+    "osm": "node/5002102711",
+    "wikidata": "Q7437874",
+    "kinds": "historic,burial_places,interesting_places,war_memorials",
+    "point": {
+      "lon": -3.199812,
+      "lat": 55.94862
+    }
+  },
+  {
+    "xid": "W73090302",
+    "name": "Scottish National Portrait Gallery",
+    "rate": 7,
+    "osm": "way/73090302",
+    "wikidata": "Q2441562",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.193592,
+      "lat": 55.955467
+    }
+  },
+  {
+    "xid": "N4235737795",
+    "name": "Leith Theatre",
+    "rate": 7,
+    "osm": "node/4235737795",
+    "wikidata": "Q17807607",
+    "kinds": "cultural,theatres_and_entertainments,interesting_places,other_theatres",
+    "point": {
+      "lon": -3.180472,
+      "lat": 55.975723
+    }
+  },
+  {
+    "xid": "W28669087",
+    "name": "King's Theatre",
+    "rate": 7,
+    "osm": "way/28669087",
+    "wikidata": "Q6411122",
+    "kinds": "cultural,cinemas,theatres_and_entertainments,interesting_places",
+    "point": {
+      "lon": -3.202793,
+      "lat": 55.94194
+    }
+  },
+  {
+    "xid": "W42580755",
+    "name": "Bedlam Theatre",
+    "rate": 7,
+    "osm": "way/42580755",
+    "wikidata": "Q4879291",
+    "kinds": "religion,historic_architecture,architecture,churches,cultural,theatres_and_entertainments,interesting_places,destroyed_objects,other_theatres,other_churches",
+    "point": {
+      "lon": -3.190623,
+      "lat": 55.946236
+    }
+  },
+  {
+    "xid": "N33178929",
+    "name": "Cameo Picturehouse",
+    "rate": 7,
+    "osm": "node/33178929",
+    "wikidata": "Q7721081",
+    "kinds": "cultural,cinemas,theatres_and_entertainments,interesting_places",
+    "point": {
+      "lon": -3.203927,
+      "lat": 55.942783
+    }
+  },
+  {
+    "xid": "N33179122",
+    "name": "Filmhouse",
+    "rate": 7,
+    "osm": "node/33179122",
+    "wikidata": "Q5338196",
+    "kinds": "religion,historic_architecture,architecture,churches,cultural,cinemas,theatres_and_entertainments,interesting_places,destroyed_objects,other_churches",
+    "point": {
+      "lon": -3.20616,
+      "lat": 55.946457
+    }
+  },
+  {
+    "xid": "W4075023",
+    "name": "George Square Gardens",
+    "rate": 7,
+    "osm": "way/4075023",
+    "wikidata": "Q17803246",
+    "kinds": "gardens_and_parks,urban_environment,cultural,theatres_and_entertainments,interesting_places,other_theatres",
+    "point": {
+      "lon": -3.188814,
+      "lat": 55.943642
+    }
+  },
+  {
+    "xid": "N1867328555",
+    "name": "New Town",
+    "rate": 7,
+    "osm": "node/1867328555",
+    "wikidata": "Q590710",
+    "kinds": "historical_places,historic,interesting_places,historic_districts",
+    "point": {
+      "lon": -3.199,
+      "lat": 55.955456
+    }
+  },
+  {
+    "xid": "W61161239",
+    "name": "Craigmillar Castle",
+    "rate": 7,
+    "osm": "way/61161239",
+    "wikidata": "Q432422",
+    "kinds": "historic_architecture,architecture,fortifications,historic,monuments_and_memorials,interesting_places,destroyed_objects,castles,monuments",
+    "point": {
+      "lon": -3.140697,
+      "lat": 55.925694
+    }
+  },
+  {
+    "xid": "N5337269696",
+    "name": "Scottish Horse Memorial",
+    "rate": 7,
+    "osm": "node/5337269696",
+    "wikidata": "Q7437874",
+    "kinds": "historic,monuments_and_memorials,burial_places,interesting_places,war_memorials,monuments",
+    "point": {
+      "lon": -3.197592,
+      "lat": 55.948929
+    }
+  },
+  {
+    "xid": "W337771563",
+    "name": "Warriston Cemetery",
+    "rate": 7,
+    "osm": "way/337771563",
+    "wikidata": "Q7970837",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.198156,
+      "lat": 55.967987
+    }
+  },
+  {
+    "xid": "W425560608",
+    "name": "Rosebank Cemetery",
+    "rate": 7,
+    "osm": "way/425560608",
+    "wikidata": "Q7368066",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.184984,
+      "lat": 55.96772
+    }
+  },
+  {
+    "xid": "W23051228",
+    "name": "Dean Cemetery",
+    "rate": 7,
+    "osm": "way/23051228",
+    "wikidata": "Q5246062",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.223308,
+      "lat": 55.952595
+    }
+  },
+  {
+    "xid": "W23166563",
+    "name": "Dean Cemetery",
+    "rate": 7,
+    "osm": "way/23166563",
+    "wikidata": "Q5246062",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.223148,
+      "lat": 55.954384
+    }
+  },
+  {
+    "xid": "W40009516",
+    "name": "Old Calton Burial Ground",
+    "rate": 7,
+    "osm": "way/40009516",
+    "wikidata": "Q7083575",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.186126,
+      "lat": 55.954025
+    }
+  },
+  {
+    "xid": "W511343921",
+    "name": "Scottish National War Memorial",
+    "rate": 7,
+    "osm": "way/511343921",
+    "wikidata": "Q7437874",
+    "kinds": "historic,burial_places,interesting_places,war_memorials",
+    "point": {
+      "lon": -3.199725,
+      "lat": 55.948387
+    }
+  },
+  {
+    "xid": "W154328665",
+    "name": "North Leith Parish Church",
+    "rate": 7,
+    "osm": "way/154328665",
+    "wikidata": "Q11838984",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.182997,
+      "lat": 55.975994
+    }
+  },
+  {
+    "xid": "W293213570",
+    "name": "Old Saint Paul's",
+    "rate": 7,
+    "osm": "way/293213570",
+    "wikidata": "Q7084888",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.187088,
+      "lat": 55.950966
+    }
+  },
+  {
+    "xid": "W184267406",
+    "name": "Barclay Viewforth Church Centre",
+    "rate": 7,
+    "osm": "way/184267406",
+    "wikidata": "Q4859957",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.203363,
+      "lat": 55.940262
+    }
+  },
+  {
+    "xid": "W287130390",
+    "name": "Greyfriars Kirk",
+    "rate": 7,
+    "osm": "way/287130390",
+    "wikidata": "Q2113456",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.192276,
+      "lat": 55.946644
+    }
+  },
+  {
+    "xid": "W42448043",
+    "name": "South Leith Parish Church",
+    "rate": 7,
+    "osm": "way/42448043",
+    "wikidata": "Q7567812",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.170509,
+      "lat": 55.97205
+    }
+  },
+  {
+    "xid": "W4330157",
+    "name": "Canongate Kirk",
+    "rate": 7,
+    "osm": "way/4330157",
+    "wikidata": "Q6415559",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.17964,
+      "lat": 55.95182
+    }
+  },
+  {
+    "xid": "W178369804",
+    "name": "Corstorphine United Free Church",
+    "rate": 7,
+    "osm": "way/178369804",
+    "wikidata": "Q17570258",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.283312,
+      "lat": 55.941185
+    }
+  },
+  {
+    "xid": "W184268871",
+    "name": "Church of the Sacred Heart",
+    "rate": 7,
+    "osm": "way/184268871",
+    "wikidata": "Q7397090",
+    "kinds": "religion,churches,interesting_places,catholic_churches",
+    "point": {
+      "lon": -3.201676,
+      "lat": 55.944988
+    }
+  },
+  {
+    "xid": "W259067187",
+    "name": "St Columba's by the Castle",
+    "rate": 7,
+    "osm": "way/259067187",
+    "wikidata": "Q7592857",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.195495,
+      "lat": 55.948299
+    }
+  },
+  {
+    "xid": "W225470834",
+    "name": "St Mary's Episcopal Cathedral",
+    "rate": 7,
+    "osm": "way/225470834",
+    "wikidata": "Q2324015",
+    "kinds": "religion,cathedrals,interesting_places",
+    "point": {
+      "lon": -3.216146,
+      "lat": 55.948612
+    }
+  },
+  {
+    "xid": "W239888879",
+    "name": "Political Martyrs' Monument",
+    "rate": 7,
+    "osm": "way/239888879",
+    "wikidata": "Q7210212",
+    "kinds": "historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",
+    "point": {
+      "lon": -3.185754,
+      "lat": 55.95335
+    }
+  },
+  {
+    "xid": "W41299985",
+    "name": "St Margaret's Chapel",
+    "rate": 7,
+    "osm": "way/41299985",
+    "wikidata": "Q2061784",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.200089,
+      "lat": 55.948689
+    }
+  },
+  {
+    "xid": "W465938528",
+    "name": "Nelson Monument",
+    "rate": 7,
+    "osm": "way/465938528",
+    "wikidata": "Q11838983",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.182629,
+      "lat": 55.954353
+    }
+  },
+  {
+    "xid": "W41893740",
+    "name": "The Queen's Gallery",
+    "rate": 7,
+    "osm": "way/41893740",
+    "wikidata": "Q7269994",
+    "kinds": "religion,historic_architecture,architecture,churches,museums,cultural,interesting_places,destroyed_objects,art_galleries,other_churches",
+    "point": {
+      "lon": -3.173815,
+      "lat": 55.952564
+    }
+  },
+  {
+    "xid": "W259067386",
+    "name": "Museum of Edinburgh",
+    "rate": 7,
+    "osm": "way/259067386",
+    "wikidata": "Q11838982",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.1795,
+      "lat": 55.95121
+    }
+  },
+  {
+    "xid": "W42261848",
+    "name": "St Cecilia's Hall",
+    "rate": 7,
+    "osm": "way/42261848",
+    "wikidata": "Q7592777",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.186434,
+      "lat": 55.948982
+    }
+  },
+  {
+    "xid": "W22938944",
+    "name": "Scottish National Gallery of Modern Art Two",
+    "rate": 7,
+    "osm": "way/22938944",
+    "wikidata": "Q2679817",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.224096,
+      "lat": 55.951847
+    }
+  },
+  {
+    "xid": "W57709519",
+    "name": "RBGE Inverleith House",
+    "rate": 7,
+    "osm": "way/57709519",
+    "wikidata": "Q16931444",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.210157,
+      "lat": 55.965019
+    }
+  },
+  {
+    "xid": "W62064478",
+    "name": "Royal Lyceum Theatre",
+    "rate": 7,
+    "osm": "way/62064478",
+    "wikidata": "Q7374418",
+    "kinds": "cultural,theatres_and_entertainments,interesting_places,other_theatres",
+    "point": {
+      "lon": -3.204351,
+      "lat": 55.947014
+    }
+  },
+  {
+    "xid": "W320954869",
+    "name": "Edinburgh Playhouse",
+    "rate": 7,
+    "osm": "way/320954869",
+    "wikidata": "Q5338244",
+    "kinds": "cultural,cinemas,theatres_and_entertainments,interesting_places,music_venues",
+    "point": {
+      "lon": -3.18501,
+      "lat": 55.956772
+    }
+  },
+  {
+    "xid": "W129089917",
+    "name": "Dominion Cinema",
+    "rate": 7,
+    "osm": "way/129089917",
+    "wikidata": "Q5291041",
+    "kinds": "cultural,cinemas,theatres_and_entertainments,interesting_places",
+    "point": {
+      "lon": -3.208722,
+      "lat": 55.930618
+    }
+  },
+  {
+    "xid": "W199274535",
+    "name": "Craigcrook Castle",
+    "rate": 7,
+    "osm": "way/199274535",
+    "wikidata": "Q5181656",
+    "kinds": "fortifications,historic,monuments_and_memorials,interesting_places,castles,monuments",
+    "point": {
+      "lon": -3.265749,
+      "lat": 55.954926
+    }
+  },
+  {
+    "xid": "W42407060",
+    "name": "St Giles' Cathedral",
+    "rate": 7,
+    "osm": "way/42407060",
+    "wikidata": "Q1547466",
+    "kinds": "religion,cathedrals,interesting_places",
+    "point": {
+      "lon": -3.190847,
+      "lat": 55.949455
+    }
+  },
+  {
+    "xid": "W465223757",
+    "name": "St Stephen's Church",
+    "rate": 7,
+    "osm": "way/465223757",
+    "wikidata": "Q7595476",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.203522,
+      "lat": 55.95858
+    }
+  },
+  {
+    "xid": "R9821096",
+    "name": "Barclay Viewforth Parish Church",
+    "rate": 7,
+    "osm": "relation/9821096",
+    "wikidata": "Q4859957",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.203434,
+      "lat": 55.940468
+    }
+  },
+  {
+    "xid": "W176162828",
+    "name": "Corstorphine Old Parish Church",
+    "rate": 7,
+    "osm": "way/176162828",
+    "wikidata": "Q17570258",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.281714,
+      "lat": 55.941307
+    }
+  },
+  {
+    "xid": "W279616455",
+    "name": "St Paul's & St George's",
+    "rate": 7,
+    "osm": "way/279616455",
+    "wikidata": "Q7595183",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.188664,
+      "lat": 55.956764
+    }
+  },
+  {
+    "xid": "W62061248",
+    "name": "Church of St John the Evangelist",
+    "rate": 7,
+    "osm": "way/62061248",
+    "wikidata": "Q5117460",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.206486,
+      "lat": 55.950043
+    }
+  },
+  {
+    "xid": "W244941537",
+    "name": "St Peter's Catholic Church",
+    "rate": 7,
+    "osm": "way/244941537",
+    "wikidata": "Q17570427",
+    "kinds": "religion,churches,interesting_places,catholic_churches",
+    "point": {
+      "lon": -3.205941,
+      "lat": 55.930405
+    }
+  },
+  {
+    "xid": "W320974678",
+    "name": "Dugald Stewart Monument",
+    "rate": 7,
+    "osm": "way/320974678",
+    "wikidata": "Q5312471",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.184524,
+      "lat": 55.95451
+    }
+  },
+  {
+    "xid": "W39044819",
+    "name": "Scott Monument",
+    "rate": 7,
+    "osm": "way/39044819",
+    "wikidata": "Q2502213",
+    "kinds": "towers,architecture,historic,monuments_and_memorials,interesting_places,monuments,other_towers",
+    "point": {
+      "lon": -3.193255,
+      "lat": 55.952358
+    }
+  },
+  {
+    "xid": "W314600289",
+    "name": "Scottish American War Memorial",
+    "rate": 7,
+    "osm": "way/314600289",
+    "wikidata": "Q7435775",
+    "kinds": "historic,monuments_and_memorials,burial_places,interesting_places,war_memorials,monuments",
+    "point": {
+      "lon": -3.201026,
+      "lat": 55.951027
+    }
+  },
+  {
+    "xid": "W90710096",
+    "name": "Trinity House",
+    "rate": 7,
+    "osm": "way/90710096",
+    "wikidata": "Q7842854",
+    "kinds": "museums,cultural,interesting_places,museums_of_science_and_technology,maritime_museums",
+    "point": {
+      "lon": -3.171345,
+      "lat": 55.972187
+    }
+  },
+  {
+    "xid": "R2344206",
+    "name": "Old Calton Burial Ground",
+    "rate": 7,
+    "osm": "relation/2344206",
+    "wikidata": "Q7083575",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.186034,
+      "lat": 55.953472
+    }
+  },
+  {
+    "xid": "R2301130",
+    "name": "Holyrood Abbey",
+    "rate": 7,
+    "osm": "relation/2301130",
+    "wikidata": "Q966862",
+    "kinds": "religion,historic_architecture,architecture,monasteries,interesting_places,destroyed_objects",
+    "point": {
+      "lon": -3.171363,
+      "lat": 55.953094
+    }
+  },
+  {
+    "xid": "Q4211494",
+    "name": "Outlook Tower",
+    "rate": 7,
+    "wikidata": "Q4211494",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.19557,
+      "lat": 55.949001
+    }
+  },
+  {
+    "xid": "Q1819945",
+    "name": "Royal Museum",
+    "rate": 7,
+    "wikidata": "Q1819945",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.18916,
+      "lat": 55.947159
+    }
+  },
+  {
+    "xid": "Q5117190",
+    "name": "Church of Scotland Offices",
+    "rate": 7,
+    "wikidata": "Q5117190",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.20483,
+      "lat": 55.952599
+    }
+  },
+  {
+    "xid": "Q7538876",
+    "name": "Slateford Aqueduct",
+    "rate": 7,
+    "wikidata": "Q7538876",
+    "kinds": "bridges,architecture,interesting_places,natural,water,aqueducts,rivers",
+    "point": {
+      "lon": -3.24961,
+      "lat": 55.923401
+    }
+  },
+  {
+    "xid": "Q11839020",
+    "name": "Gillis Centre",
+    "rate": 7,
+    "wikidata": "Q11839020",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.200504,
+      "lat": 55.934925
+    }
+  },
+  {
+    "xid": "Q5887124",
+    "name": "Holyrood Abbey Church",
+    "rate": 7,
+    "wikidata": "Q5887124",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.164,
+      "lat": 55.956902
+    }
+  },
+  {
+    "xid": "Q7374813",
+    "name": "Royal Scottish Academy Building",
+    "rate": 7,
+    "wikidata": "Q7374813",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.196389,
+      "lat": 55.951752
+    }
+  },
+  {
+    "xid": "Q7842704",
+    "name": "Trinity College Kirk",
+    "rate": 7,
+    "wikidata": "Q7842704",
+    "kinds": "religion,architecture,historic_architecture,churches,interesting_places,destroyed_objects,catholic_churches",
+    "point": {
+      "lon": -3.186111,
+      "lat": 55.952778
+    }
+  },
+  {
+    "xid": "Q17808251",
+    "name": "Edinburgh, Gilmore Place, Viewforth Church",
+    "rate": 7,
+    "wikidata": "Q17808251",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.2125,
+      "lat": 55.939724
+    }
+  },
+  {
+    "xid": "N291214494",
+    "name": "Talbot Rice Gallery",
+    "rate": 3,
+    "osm": "node/291214494",
+    "wikidata": "Q7679039",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.187772,
+      "lat": 55.947067
+    }
+  },
+  {
+    "xid": "N2113087161",
+    "name": "Greyfriars Bobby's Grave",
+    "rate": 3,
+    "osm": "node/2113087161",
+    "wikidata": "Q20639161",
+    "kinds": "fountains,historic,monuments_and_memorials,burial_places,urban_environment,cultural,interesting_places,other_burial_places,monuments",
+    "point": {
+      "lon": -3.191633,
+      "lat": 55.946671
+    }
+  },
+  {
+    "xid": "R572428",
+    "name": "Corstorphine Hill Local Nature Reserve",
+    "rate": 3,
+    "osm": "relation/572428",
+    "wikidata": "Q5173199",
+    "kinds": "interesting_places,natural,nature_reserves,other_nature_conservation_areas",
+    "point": {
+      "lon": -3.272904,
+      "lat": 55.952732
+    }
+  },
+  {
+    "xid": "W70954995",
+    "name": "The People's Story Museum",
+    "rate": 3,
+    "osm": "way/70954995",
+    "wikidata": "Q4306389",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.179965,
+      "lat": 55.951469
+    }
+  },
+  {
+    "xid": "N2955931322",
+    "name": "Museum of Childhood",
+    "rate": 3,
+    "osm": "node/2955931322",
+    "wikidata": "Q15122172",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.185507,
+      "lat": 55.950329
+    }
+  },
+  {
+    "xid": "W70826506",
+    "name": "Fruitmarket Gallery",
+    "rate": 3,
+    "osm": "way/70826506",
+    "wikidata": "Q4402028",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.189457,
+      "lat": 55.951294
+    }
+  },
+  {
+    "xid": "N564723450",
+    "name": "Traverse Theatre",
+    "rate": 3,
+    "osm": "node/564723450",
+    "wikidata": "Q7836167",
+    "kinds": "cultural,theatres_and_entertainments,interesting_places,other_theatres",
+    "point": {
+      "lon": -3.204784,
+      "lat": 55.947651
+    }
+  },
+  {
+    "xid": "W22413886",
+    "name": "Calton Hill",
+    "rate": 3,
+    "osm": "way/22413886",
+    "wikidata": "Q1199959",
+    "kinds": "mountain_peaks,gardens_and_parks,urban_environment,cultural,interesting_places,natural,geological_formations",
+    "point": {
+      "lon": -3.182838,
+      "lat": 55.955364
+    }
+  },
+  {
+    "xid": "R963806",
+    "name": "West Princes Street Gardens",
+    "rate": 3,
+    "osm": "relation/963806",
+    "wikidata": "Q980646",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.19908,
+      "lat": 55.949669
+    }
+  },
+  {
+    "xid": "W5209575",
+    "name": "Royal Botanic Garden Edinburgh",
+    "rate": 3,
+    "osm": "way/5209575",
+    "wikidata": "Q1807521",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.208859,
+      "lat": 55.965286
+    }
+  },
+  {
+    "xid": "N5139932482",
+    "name": "Robert Stevenson",
+    "rate": 3,
+    "osm": "node/5139932482",
+    "wikidata": "Q1355182",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.175583,
+      "lat": 55.953609
+    }
+  },
+  {
+    "xid": "N5198142639",
+    "name": "Peter Ware Higgs, born 1929",
+    "rate": 3,
+    "osm": "node/5198142639",
+    "wikidata": "Q192112",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.183202,
+      "lat": 55.947678
+    }
+  },
+  {
+    "xid": "W4974703",
+    "name": "Morningside Cemetery",
+    "rate": 3,
+    "osm": "way/4974703",
+    "wikidata": "Q18619422",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.213979,
+      "lat": 55.924221
+    }
+  },
+  {
+    "xid": "W26626715",
+    "name": "Comely Bank Cemetery",
+    "rate": 3,
+    "osm": "way/26626715",
+    "wikidata": "Q21557158",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.228742,
+      "lat": 55.959141
+    }
+  },
+  {
+    "xid": "W30971801",
+    "name": "Edinburgh Central Mosque",
+    "rate": 3,
+    "osm": "way/30971801",
+    "wikidata": "Q1144643",
+    "kinds": "religion,mosques,interesting_places",
+    "point": {
+      "lon": -3.185843,
+      "lat": 55.945007
+    }
+  },
+  {
+    "xid": "W155809287",
+    "name": "Bellevue Chapel",
+    "rate": 3,
+    "osm": "way/155809287",
+    "wikidata": "Q4883924",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.194788,
+      "lat": 55.961391
+    }
+  },
+  {
+    "xid": "W259766109",
+    "name": "Bruntsfield Evangelical Church",
+    "rate": 3,
+    "osm": "way/259766109",
+    "wikidata": "Q4979589",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.207199,
+      "lat": 55.938141
+    }
+  },
+  {
+    "xid": "W303765863",
+    "name": "Pilrig St Paul's",
+    "rate": 3,
+    "osm": "way/303765863",
+    "wikidata": "Q7194505",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.178076,
+      "lat": 55.96394
+    }
+  },
+  {
+    "xid": "N1149620440",
+    "name": "Calton Hill",
+    "rate": 3,
+    "osm": "node/1149620440",
+    "wikidata": "Q1199959",
+    "kinds": "mountain_peaks,interesting_places,natural,geological_formations",
+    "point": {
+      "lon": -3.182351,
+      "lat": 55.955597
+    }
+  },
+  {
+    "xid": "N29216997",
+    "name": "Corstorphine Hill",
+    "rate": 3,
+    "osm": "node/29216997",
+    "wikidata": "Q5173199",
+    "kinds": "mountain_peaks,interesting_places,natural,geological_formations",
+    "point": {
+      "lon": -3.271487,
+      "lat": 55.950947
+    }
+  },
+  {
+    "xid": "N73312622",
+    "name": "Blackford Hill",
+    "rate": 3,
+    "osm": "node/73312622",
+    "wikidata": "Q3915784",
+    "kinds": "mountain_peaks,interesting_places,natural,geological_formations",
+    "point": {
+      "lon": -3.194684,
+      "lat": 55.923058
+    }
+  },
+  {
+    "xid": "N292053436",
+    "name": "Wester Craiglockhart Hill",
+    "rate": 3,
+    "osm": "node/292053436",
+    "wikidata": "Q8537792",
+    "kinds": "mountain_peaks,interesting_places,natural,geological_formations",
+    "point": {
+      "lon": -3.236337,
+      "lat": 55.917446
+    }
+  },
+  {
+    "xid": "W30414335",
+    "name": "Hermitage of Braid",
+    "rate": 3,
+    "osm": "way/30414335",
+    "wikidata": "Q14948845",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.200852,
+      "lat": 55.91988
+    }
+  },
+  {
+    "xid": "N4618730716",
+    "name": "Museum on the Mound",
+    "rate": 3,
+    "osm": "node/4618730716",
+    "wikidata": "Q6941127",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.193248,
+      "lat": 55.950188
+    }
+  },
+  {
+    "xid": "W25946269",
+    "name": "Dynamic Earth",
+    "rate": 3,
+    "osm": "way/25946269",
+    "wikidata": "Q3358350",
+    "kinds": "museums,science_museums,cultural,interesting_places",
+    "point": {
+      "lon": -3.174419,
+      "lat": 55.950531
+    }
+  },
+  {
+    "xid": "W467226683",
+    "name": "National Museum of Scotland",
+    "rate": 3,
+    "osm": "way/467226683",
+    "wikidata": "Q1633842",
+    "kinds": "national_museums,museums,cultural,interesting_places",
+    "point": {
+      "lon": -3.189336,
+      "lat": 55.947071
+    }
+  },
+  {
+    "xid": "W446654897",
+    "name": "Royal Scots Museum",
+    "rate": 3,
+    "osm": "way/446654897",
+    "wikidata": "Q47486844",
+    "kinds": "museums,cultural,interesting_places,military_museums",
+    "point": {
+      "lon": -3.200277,
+      "lat": 55.948193
+    }
+  },
+  {
+    "xid": "W130755064",
+    "name": "Church Hill Theatre",
+    "rate": 3,
+    "osm": "way/130755064",
+    "wikidata": "Q5116619",
+    "kinds": "cultural,theatres_and_entertainments,interesting_places,other_theatres",
+    "point": {
+      "lon": -3.209361,
+      "lat": 55.932652
+    }
+  },
+  {
+    "xid": "W41663265",
+    "name": "Holyrood Park",
+    "rate": 3,
+    "osm": "way/41663265",
+    "wikidata": "Q2640532",
+    "kinds": "historic,gardens_and_parks,urban_environment,archaeology,cultural,interesting_places,other_archaeological_sites",
+    "point": {
+      "lon": -3.163671,
+      "lat": 55.946835
+    }
+  },
+  {
+    "xid": "W4348244",
+    "name": "Bruntsfield Links",
+    "rate": 3,
+    "osm": "way/4348244",
+    "wikidata": "Q4979595",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.20194,
+      "lat": 55.939186
+    }
+  },
+  {
+    "xid": "N258016781",
+    "name": "Greyfriars Bobby",
+    "rate": 3,
+    "osm": "node/258016781",
+    "wikidata": "Q1360835",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.191304,
+      "lat": 55.946922
+    }
+  },
+  {
+    "xid": "W314600292",
+    "name": "Thomas Guthrie Memorial",
+    "rate": 3,
+    "osm": "way/314600292",
+    "wikidata": "Q7790252",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.202636,
+      "lat": 55.950809
+    }
+  },
+  {
+    "xid": "W314600291",
+    "name": "Sir James Young Simpson Memorial",
+    "rate": 3,
+    "osm": "way/314600291",
+    "wikidata": "Q470140",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.205049,
+      "lat": 55.950386
+    }
+  },
+  {
+    "xid": "N3046175814",
+    "name": "William Chambers Statue",
+    "rate": 3,
+    "osm": "node/3046175814",
+    "wikidata": "Q3568493",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.189792,
+      "lat": 55.947392
+    }
+  },
+  {
+    "xid": "R1110957",
+    "name": "Canongate Kirkyard",
+    "rate": 3,
+    "osm": "relation/1110957",
+    "wikidata": "Q5033342",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.179794,
+      "lat": 55.952156
+    }
+  },
+  {
+    "xid": "W285945507",
+    "name": "Church of St Michael and All Saints",
+    "rate": 3,
+    "osm": "way/285945507",
+    "wikidata": "Q42887803",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.20149,
+      "lat": 55.943222
+    }
+  },
+  {
+    "xid": "W75723585",
+    "name": "Canonmills Baptist Church",
+    "rate": 3,
+    "osm": "way/75723585",
+    "wikidata": "Q5033398",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.198338,
+      "lat": 55.9627
+    }
+  },
+  {
+    "xid": "W178326591",
+    "name": "St Mary's Star of the Sea Church",
+    "rate": 3,
+    "osm": "way/178326591",
+    "wikidata": "Q42377701",
+    "kinds": "religion,churches,interesting_places,catholic_churches",
+    "point": {
+      "lon": -3.168931,
+      "lat": 55.973148
+    }
+  },
+  {
+    "xid": "W235396951",
+    "name": "Mausoleum of David Hume",
+    "rate": 3,
+    "osm": "way/235396951",
+    "wikidata": "Q37160",
+    "kinds": "historic,burial_places,interesting_places,mausoleums",
+    "point": {
+      "lon": -3.186101,
+      "lat": 55.953411
+    }
+  },
+  {
+    "xid": "N31209291",
+    "name": "Arthur's Seat",
+    "rate": 3,
+    "osm": "node/31209291",
+    "wikidata": "Q712311",
+    "kinds": "mountain_peaks,interesting_places,natural,geological_formations",
+    "point": {
+      "lon": -3.161833,
+      "lat": 55.94408
+    }
+  },
+  {
+    "xid": "N3969496784",
+    "name": "Castle Rock",
+    "rate": 3,
+    "osm": "node/3969496784",
+    "wikidata": "Q8522896",
+    "kinds": "mountain_peaks,interesting_places,natural,geological_formations",
+    "point": {
+      "lon": -3.198846,
+      "lat": 55.94825
+    }
+  },
+  {
+    "xid": "N3742720864",
+    "name": "Grave of John Knox",
+    "rate": 3,
+    "osm": "node/3742720864",
+    "wikidata": "Q189937",
+    "kinds": "historic,burial_places,interesting_places,other_burial_places",
+    "point": {
+      "lon": -3.190706,
+      "lat": 55.9492
+    }
+  },
+  {
+    "xid": "W37995891",
+    "name": "King George V Park",
+    "rate": 3,
+    "osm": "way/37995891",
+    "wikidata": "Q30612398",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.197155,
+      "lat": 55.960571
+    }
+  },
+  {
+    "xid": "W233760765",
+    "name": "The Meadows",
+    "rate": 3,
+    "osm": "way/233760765",
+    "wikidata": "Q7750795",
+    "kinds": "sport,gardens_and_parks,urban_environment,cultural,interesting_places,stadiums",
+    "point": {
+      "lon": -3.19436,
+      "lat": 55.942329
+    }
+  },
+  {
+    "xid": "N4618730690",
+    "name": "Writers' Museum",
+    "rate": 3,
+    "osm": "node/4618730690",
+    "wikidata": "Q8038444",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.193742,
+      "lat": 55.949692
+    }
+  },
+  {
+    "xid": "Q7777426",
+    "name": "Theatre Royal, Edinburgh",
+    "rate": 3,
+    "wikidata": "Q7777426",
+    "kinds": "architecture,historic_architecture,theatres_and_entertainments,cultural,interesting_places,destroyed_objects,other_theatres",
+    "point": {
+      "lon": -3.19,
+      "lat": 55.952999
+    }
+  },
+  {
+    "xid": "Q51804761",
+    "name": "Sherlock Holmes (Edinburgh)",
+    "rate": 3,
+    "wikidata": "Q51804761",
+    "kinds": "cultural,urban_environment,interesting_places,sculptures",
+    "point": {
+      "lon": -3.186697,
+      "lat": 55.956882
+    }
+  },
+  {
+    "xid": "Q5002065",
+    "name": "Bust of Carlo Antonio del Pozzo",
+    "rate": 3,
+    "wikidata": "Q5002065",
+    "kinds": "cultural,urban_environment,interesting_places,sculptures",
+    "point": {
+      "lon": -3.195592,
+      "lat": 55.950077
+    }
+  },
+  {
+    "xid": "Q8033614",
+    "name": "Woodwrae Stone",
+    "rate": 3,
+    "wikidata": "Q8033614",
+    "kinds": "historic,cultural,urban_environment,monuments_and_memorials,interesting_places,sculptures,monuments",
+    "point": {
+      "lon": -3.18918,
+      "lat": 55.946999
+    }
+  },
+  {
+    "xid": "Q5338311",
+    "name": "Edinburgh town walls",
+    "rate": 3,
+    "wikidata": "Q5338311",
+    "kinds": "fortifications,historic,defensive_walls,interesting_places",
+    "point": {
+      "lon": -3.19698,
+      "lat": 55.94622
+    }
+  },
+  {
+    "xid": "Q1284778",
+    "name": "Edinburgh Zoo",
+    "rate": 3,
+    "wikidata": "Q1284778",
+    "kinds": "cultural,museums,interesting_places,zoos",
+    "point": {
+      "lon": -3.26806,
+      "lat": 55.943062
+    }
+  },
+  {
+    "xid": "W314597265",
+    "name": "Melville's Monument",
+    "rate": 6,
+    "osm": "way/314597265",
+    "wikidata": "Q17570686",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.193158,
+      "lat": 55.954212
+    }
+  },
+  {
+    "xid": "N1782966647",
+    "name": "Methodist Central Hall",
+    "rate": 6,
+    "osm": "node/1782966647",
+    "wikidata": "Q17796150",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.204218,
+      "lat": 55.943848
+    }
+  },
+  {
+    "xid": "N5337269697",
+    "name": "Colonel Mackenzie",
+    "rate": 6,
+    "osm": "node/5337269697",
+    "wikidata": "Q17795478",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.197396,
+      "lat": 55.948921
+    }
+  },
+  {
+    "xid": "N2274485025",
+    "name": "Black Watch Memorial",
+    "rate": 6,
+    "osm": "node/2274485025",
+    "wikidata": "Q17569383",
+    "kinds": "historic,monuments_and_memorials,burial_places,urban_environment,cultural,interesting_places,war_memorials,sculptures,monuments",
+    "point": {
+      "lon": -3.194538,
+      "lat": 55.950127
+    }
+  },
+  {
+    "xid": "W42567185",
+    "name": "Jericho House",
+    "rate": 6,
+    "osm": "way/42567185",
+    "wikidata": "Q17793453",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.189588,
+      "lat": 55.946102
+    }
+  },
+  {
+    "xid": "W175512118",
+    "name": "Palmerston Place Church",
+    "rate": 6,
+    "osm": "way/175512118",
+    "wikidata": "Q17809170",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.216237,
+      "lat": 55.947361
+    }
+  },
+  {
+    "xid": "W134586112",
+    "name": "St Anne's Church",
+    "rate": 6,
+    "osm": "way/134586112",
+    "wikidata": "Q17570445",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.27348,
+      "lat": 55.942139
+    }
+  },
+  {
+    "xid": "W228464656",
+    "name": "Blackhall St. Columba's Church",
+    "rate": 6,
+    "osm": "way/228464656",
+    "wikidata": "Q17810005",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.252319,
+      "lat": 55.958248
+    }
+  },
+  {
+    "xid": "W41127498",
+    "name": "Saint Martin of Tours Episcopal Church",
+    "rate": 6,
+    "osm": "way/41127498",
+    "wikidata": "Q17806061",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.225321,
+      "lat": 55.940197
+    }
+  },
+  {
+    "xid": "W156724259",
+    "name": "Morningside United Church",
+    "rate": 6,
+    "osm": "way/156724259",
+    "wikidata": "Q17811584",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.209379,
+      "lat": 55.934582
+    }
+  },
+  {
+    "xid": "W41299987",
+    "name": "Portcullis Gate and Argyle Tower",
+    "rate": 6,
+    "osm": "way/41299987",
+    "wikidata": "Q17569959",
+    "kinds": "fortifications,defensive_walls,historic,interesting_places",
+    "point": {
+      "lon": -3.199712,
+      "lat": 55.94886
+    }
+  },
+  {
+    "xid": "W362753121",
+    "name": "Ss Ninian and Triduana RC Church",
+    "rate": 6,
+    "osm": "way/362753121",
+    "wikidata": "Q17811515",
+    "kinds": "religion,churches,interesting_places,catholic_churches",
+    "point": {
+      "lon": -3.154698,
+      "lat": 55.95879
+    }
+  },
+  {
+    "xid": "W103163117",
+    "name": "belford mews apartment",
+    "rate": 6,
+    "osm": "way/103163117",
+    "wikidata": "Q17795202",
+    "kinds": "religion,apartments,churches,accomodations,interesting_places,hostels,other_churches",
+    "point": {
+      "lon": -3.22052,
+      "lat": 55.950916
+    }
+  },
+  {
+    "xid": "W314597264",
+    "name": "Allan Ramsay Memorial",
+    "rate": 6,
+    "osm": "way/314597264",
+    "wikidata": "Q17570763",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.197305,
+      "lat": 55.951687
+    }
+  },
+  {
+    "xid": "W70955023",
+    "name": "Trinity Apse",
+    "rate": 6,
+    "osm": "way/70955023",
+    "wikidata": "Q17570022",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.185688,
+      "lat": 55.950947
+    }
+  },
+  {
+    "xid": "N1145319664",
+    "name": "Prince Of Wales Fountain",
+    "rate": 6,
+    "osm": "node/1145319664",
+    "wikidata": "Q17811473",
+    "kinds": "fountains,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.10872,
+      "lat": 55.954185
+    }
+  },
+  {
+    "xid": "W397175911",
+    "name": "Royal Scots Greys Memorial",
+    "rate": 6,
+    "osm": "way/397175911",
+    "wikidata": "Q17813285",
+    "kinds": "historic,monuments_and_memorials,burial_places,interesting_places,other_burial_places,monuments",
+    "point": {
+      "lon": -3.199402,
+      "lat": 55.951359
+    }
+  },
+  {
+    "xid": "N708975731",
+    "name": "George IV",
+    "rate": 6,
+    "osm": "node/708975731",
+    "wikidata": "Q17570721",
+    "kinds": "historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",
+    "point": {
+      "lon": -3.197258,
+      "lat": 55.953518
+    }
+  },
+  {
+    "xid": "N5110780767",
+    "name": "Mcewan Lantern Pillar",
+    "rate": 6,
+    "osm": "node/5110780767",
+    "wikidata": "Q17791706",
+    "kinds": "historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",
+    "point": {
+      "lon": -3.188262,
+      "lat": 55.945339
+    }
+  },
+  {
+    "xid": "W28553603",
+    "name": "The Robin Chapel",
+    "rate": 6,
+    "osm": "way/28553603",
+    "wikidata": "Q7352312",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.130358,
+      "lat": 55.931297
+    }
+  },
+  {
+    "xid": "W42969074",
+    "name": "St Columba's Free Church",
+    "rate": 6,
+    "osm": "way/42969074",
+    "wikidata": "Q17810039",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.194135,
+      "lat": 55.948776
+    }
+  },
+  {
+    "xid": "W40622374",
+    "name": "St Michael's Parish church",
+    "rate": 6,
+    "osm": "way/40622374",
+    "wikidata": "Q17570220",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.227515,
+      "lat": 55.936558
+    }
+  },
+  {
+    "xid": "W41452827",
+    "name": "Orthodox Church of St Andrew",
+    "rate": 6,
+    "osm": "way/41452827",
+    "wikidata": "Q17795347",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.186389,
+      "lat": 55.942146
+    }
+  },
+  {
+    "xid": "W40622379",
+    "name": "Polwarth Church",
+    "rate": 6,
+    "osm": "way/40622379",
+    "wikidata": "Q17810129",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.223588,
+      "lat": 55.93404
+    }
+  },
+  {
+    "xid": "W343199829",
+    "name": "St Serf's Church",
+    "rate": 6,
+    "osm": "way/343199829",
+    "wikidata": "Q17811413",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.20525,
+      "lat": 55.971771
+    }
+  },
+  {
+    "xid": "W87686766",
+    "name": "Royal Scots Monument",
+    "rate": 6,
+    "osm": "way/87686766",
+    "wikidata": "Q17795453",
+    "kinds": "historic,monuments_and_memorials,burial_places,interesting_places,other_burial_places,monuments",
+    "point": {
+      "lon": -3.196944,
+      "lat": 55.951084
+    }
+  },
+  {
+    "xid": "W135170177",
+    "name": "Playfair Monument",
+    "rate": 6,
+    "osm": "way/135170177",
+    "wikidata": "Q17570689",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.183066,
+      "lat": 55.954792
+    }
+  },
+  {
+    "xid": "Q17570320",
+    "name": "Edinburgh, Candlemaker Row, Greyfriars Church, Churchyard, George Buchanan's Monument",
+    "rate": 6,
+    "wikidata": "Q17570320",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.19223,
+      "lat": 55.947201
+    }
+  },
+  {
+    "xid": "Q17806729",
+    "name": "New Tivoli Picture House",
+    "rate": 6,
+    "wikidata": "Q17806729",
+    "kinds": "historic_architecture,architecture,religion,churches,cinemas,cultural,theatres_and_entertainments,interesting_places,casino,adult,other_buildings_and_structures,other_churches",
+    "point": {
+      "lon": -3.22815,
+      "lat": 55.938999
+    }
+  },
+  {
+    "xid": "Q17809530",
+    "name": "Edinburgh, Bruntsfield Place, Christ Church",
+    "rate": 6,
+    "wikidata": "Q17809530",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.21049,
+      "lat": 55.934502
+    }
+  },
+  {
+    "xid": "Q17569372",
+    "name": "Odeon Edinburgh",
+    "rate": 6,
+    "wikidata": "Q17569372",
+    "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places",
+    "point": {
+      "lon": -3.18338,
+      "lat": 55.942501
+    }
+  },
+  {
+    "xid": "Q17570058",
+    "name": "Edinburgh, Broughton Place, Broughton Place Church",
+    "rate": 6,
+    "wikidata": "Q17570058",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.18735,
+      "lat": 55.959099
+    }
+  },
+  {
+    "xid": "Q17796416",
+    "name": "Edinburgh, Grange Road, Salisbury Church",
+    "rate": 6,
+    "wikidata": "Q17796416",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.18122,
+      "lat": 55.937
+    }
+  },
+  {
+    "xid": "Q17807329",
+    "name": "Edinburgh, Portobello, 16a Bellfield Street, Portobello Old And Windsor Place Parish Church",
+    "rate": 6,
+    "wikidata": "Q17807329",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.10845,
+      "lat": 55.952301
+    }
+  },
+  {
+    "xid": "Q17795816",
+    "name": "Edinburgh, 196 Canongate, Old Playhouse Close",
+    "rate": 6,
+    "wikidata": "Q17795816",
+    "kinds": "theatres_and_entertainments,cultural,interesting_places,other_theatres",
+    "point": {
+      "lon": -3.18189,
+      "lat": 55.950802
+    }
+  },
+  {
+    "xid": "Q17807617",
+    "name": "Edinburgh, 7 Upper Gray Street, St Columba's Roman Catholic Church",
+    "rate": 6,
+    "wikidata": "Q17807617",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.1787,
+      "lat": 55.936642
+    }
+  },
+  {
+    "xid": "Q17807853",
+    "name": "Edinburgh, Queensferry Road, Holy Trinity Episcopal Church",
+    "rate": 6,
+    "wikidata": "Q17807853",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.21547,
+      "lat": 55.953499
+    }
+  },
+  {
+    "xid": "Q31118012",
+    "name": "Arthur's Seat",
+    "rate": 6,
+    "wikidata": "Q31118012",
+    "kinds": "fortifications,historic,interesting_places,hillforts",
+    "point": {
+      "lon": -3.16002,
+      "lat": 55.942982
+    }
+  },
+  {
+    "xid": "Q51866520",
+    "name": "The George Cinema, Portobello",
+    "rate": 6,
+    "wikidata": "Q51866520",
+    "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places",
+    "point": {
+      "lon": -3.113333,
+      "lat": 55.953766
+    }
+  },
+  {
+    "xid": "Q6470620",
+    "name": "Lady Yester's Kirk",
+    "rate": 6,
+    "wikidata": "Q6470620",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.18556,
+      "lat": 55.948299
+    }
+  },
+  {
+    "xid": "Q17569391",
+    "name": "Edinburgh, North Bridge, South African War Memorial",
+    "rate": 6,
+    "wikidata": "Q17569391",
+    "kinds": "historic,cultural,urban_environment,burial_places,interesting_places,war_memorials,sculptures",
+    "point": {
+      "lon": -3.18814,
+      "lat": 55.951698
+    }
+  },
+  {
+    "xid": "Q17570559",
+    "name": "Edinburgh, 13 Bellevue Crescent, St Mary's Parish Church",
+    "rate": 6,
+    "wikidata": "Q17570559",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.19362,
+      "lat": 55.960201
+    }
+  },
+  {
+    "xid": "Q17570569",
+    "name": "Edinburgh, 16 Lutton Place, St Peter's Episcopal Church",
+    "rate": 6,
+    "wikidata": "Q17570569",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.17876,
+      "lat": 55.940102
+    }
+  },
+  {
+    "xid": "Q17570811",
+    "name": "Edinburgh, Royal Botanic Garden, Memorial To Sir Charles Linnaeus",
+    "rate": 6,
+    "wikidata": "Q17570811",
+    "kinds": "historic,monuments_and_memorials,burial_places,interesting_places,other_burial_places,monuments",
+    "point": {
+      "lon": -3.20742,
+      "lat": 55.966801
+    }
+  },
+  {
+    "xid": "Q17795306",
+    "name": "Edinburgh Castle Esplanade, 78th Highlanders Memorial",
+    "rate": 6,
+    "wikidata": "Q17795306",
+    "kinds": "historic,monuments_and_memorials,burial_places,interesting_places,other_burial_places,monuments",
+    "point": {
+      "lon": -3.19693,
+      "lat": 55.949001
+    }
+  },
+  {
+    "xid": "Q17798862",
+    "name": "Edinburgh, Kilgraston Road, St. Giles Parish Church",
+    "rate": 6,
+    "wikidata": "Q17798862",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.19312,
+      "lat": 55.934299
+    }
+  },
+  {
+    "xid": "Q17570491",
+    "name": "Edinburgh, Charlotte Square, St George's Parish Church",
+    "rate": 6,
+    "wikidata": "Q17570491",
+    "kinds": "religion,architecture,historic_architecture,churches,interesting_places,destroyed_objects,other_churches",
+    "point": {
+      "lon": -3.20937,
+      "lat": 55.951599
+    }
+  },
+  {
+    "xid": "Q17570498",
+    "name": "Edinburgh, 58 Shandwick Place, St George's West Church",
+    "rate": 6,
+    "wikidata": "Q17570498",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.21049,
+      "lat": 55.949299
+    }
+  },
+  {
+    "xid": "Q17794465",
+    "name": "Edinburgh, Bristo Place, Seventh Day Adventist Church",
+    "rate": 6,
+    "wikidata": "Q17794465",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.18995,
+      "lat": 55.9464
+    }
+  },
+  {
+    "xid": "Q5338175",
+    "name": "Edinburgh Corn Exchange",
+    "rate": 6,
+    "wikidata": "Q5338175",
+    "kinds": "cultural,theatres_and_entertainments,interesting_places,music_venues",
+    "point": {
+      "lon": -3.24735,
+      "lat": 55.927139
+    }
+  },
+  {
+    "xid": "Q17794482",
+    "name": "Edinburgh, Dean Village, Dean Path, Dean Parish Church And Hall",
+    "rate": 6,
+    "wikidata": "Q17794482",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.22165,
+      "lat": 55.954399
+    }
+  },
+  {
+    "xid": "Q17795413",
+    "name": "Lothian House",
+    "rate": 6,
+    "wikidata": "Q17795413",
+    "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places",
+    "point": {
+      "lon": -3.20619,
+      "lat": 55.945599
+    }
+  },
+  {
+    "xid": "Q17570227",
+    "name": "Edinburgh, East London Street, Catholic Apostolic Church",
+    "rate": 6,
+    "wikidata": "Q17570227",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.19047,
+      "lat": 55.959702
+    }
+  },
+  {
+    "xid": "Q17570702",
+    "name": "Edinburgh, Charlotte Square, Albert Memorial",
+    "rate": 6,
+    "wikidata": "Q17570702",
+    "kinds": "historic,monuments_and_memorials,burial_places,interesting_places,other_burial_places,monuments",
+    "point": {
+      "lon": -3.20767,
+      "lat": 55.951801
+    }
+  },
+  {
+    "xid": "Q17570709",
+    "name": "Edinburgh, East Princes Street Gardens, Adam Black Monument",
+    "rate": 6,
+    "wikidata": "Q17570709",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.19443,
+      "lat": 55.952202
+    }
+  },
+  {
+    "xid": "Q17570750",
+    "name": "Edinburgh, 36 St Andrew Square, Dundas House, Hopetoun Monument",
+    "rate": 6,
+    "wikidata": "Q17570750",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.19167,
+      "lat": 55.954498
+    }
+  },
+  {
+    "xid": "Q17571032",
+    "name": "Edinburgh, Craigmillar Castle Road, Craigmillar Castle",
+    "rate": 6,
+    "wikidata": "Q17571032",
+    "kinds": "fortifications,historic,monuments_and_memorials,interesting_places,castles,monuments",
+    "point": {
+      "lon": -3.14089,
+      "lat": 55.925701
+    }
+  },
+  {
+    "xid": "Q17807409",
+    "name": "Edinburgh, Morningside Road, North Morningside Church",
+    "rate": 6,
+    "wikidata": "Q17807409",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.20974,
+      "lat": 55.933899
+    }
+  },
+  {
+    "xid": "Q17811636",
+    "name": "Edinburgh, Morningside, Morningside Road, Morningside Parish Church",
+    "rate": 6,
+    "wikidata": "Q17811636",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.20935,
+      "lat": 55.931198
+    }
+  },
+  {
+    "xid": "Q31118011",
+    "name": "Salisbury Crags, Edinburgh",
+    "rate": 6,
+    "wikidata": "Q31118011",
+    "kinds": "fortifications,historic,interesting_places,hillforts",
+    "point": {
+      "lon": -3.1703,
+      "lat": 55.946831
+    }
+  },
+  {
+    "xid": "Q17570683",
+    "name": "Edinburgh, Regent Road, Burns' Monument",
+    "rate": 6,
+    "wikidata": "Q17570683",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.17835,
+      "lat": 55.953499
+    }
+  },
+  {
+    "xid": "Q17570699",
+    "name": "Edinburgh, Calton Hill, Dugald Stewart's Monument",
+    "rate": 6,
+    "wikidata": "Q17570699",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.18448,
+      "lat": 55.954498
+    }
+  },
+  {
+    "xid": "Q17570824",
+    "name": "Edinburgh, Waterloo Place, Old Calton Burial Ground, Hume Monument",
+    "rate": 6,
+    "wikidata": "Q17570824",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.18619,
+      "lat": 55.9534
+    }
+  },
+  {
+    "xid": "Q17810965",
+    "name": "Edinburgh, 13 St Vincent Street, St Vincent's Episcopal Church",
+    "rate": 6,
+    "wikidata": "Q17810965",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.20375,
+      "lat": 55.958302
+    }
+  },
+  {
+    "xid": "Q17811317",
+    "name": "Edinburgh, South Clerk Street, Saint Paul's Newington Church",
+    "rate": 6,
+    "wikidata": "Q17811317",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.18023,
+      "lat": 55.940498
+    }
+  },
+  {
+    "xid": "N4598371942",
+    "name": "Pleasance Theatre",
+    "rate": 2,
+    "osm": "node/4598371942",
+    "wikidata": "Q16898562",
+    "kinds": "cultural,theatres_and_entertainments,interesting_places,other_theatres",
+    "point": {
+      "lon": -3.181607,
+      "lat": 55.9478
+    }
+  },
+  {
+    "xid": "W270192920",
+    "name": "Dean Gardens",
+    "rate": 2,
+    "osm": "way/270192920",
+    "wikidata": "Q38251370",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.212812,
+      "lat": 55.9543
+    }
+  },
+  {
+    "xid": "W5015617",
+    "name": "Leith Links East",
+    "rate": 2,
+    "osm": "way/5015617",
+    "wikidata": "Q6520393",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.156497,
+      "lat": 55.97073
+    }
+  },
+  {
+    "xid": "R8423665",
+    "name": "Leith Links West",
+    "rate": 2,
+    "osm": "relation/8423665",
+    "wikidata": "Q6520393",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.164396,
+      "lat": 55.971222
+    }
+  },
+  {
+    "xid": "W460962807",
+    "name": "Muschat's cairn",
+    "rate": 2,
+    "osm": "way/460962807",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.158317,
+      "lat": 55.954403
+    }
+  },
+  {
+    "xid": "N3203932126",
+    "name": "Quintinshill Rail Disaster Memorial",
+    "rate": 2,
+    "osm": "node/3203932126",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.187309,
+      "lat": 55.967434
+    }
+  },
+  {
+    "xid": "N5198142641",
+    "name": "Richard Scott 1914-1983",
+    "rate": 2,
+    "osm": "node/5198142641",
+    "wikidata": "Q33084335",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.183489,
+      "lat": 55.945568
+    }
+  },
+  {
+    "xid": "N5964650331",
+    "name": "Herbert Nigel Gresley",
+    "rate": 2,
+    "osm": "node/5964650331",
+    "wikidata": "Q320438",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.193927,
+      "lat": 55.957249
+    }
+  },
+  {
+    "xid": "N2112878976",
+    "name": "David Hume Memorial",
+    "rate": 2,
+    "osm": "node/2112878976",
+    "wikidata": "Q55842333",
+    "kinds": "historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",
+    "point": {
+      "lon": -3.192443,
+      "lat": 55.949551
+    }
+  },
+  {
+    "xid": "W26564080",
+    "name": "New Calton Burial Ground",
+    "rate": 2,
+    "osm": "way/26564080",
+    "wikidata": "Q18161564",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.176425,
+      "lat": 55.953579
+    }
+  },
+  {
+    "xid": "W82467198",
+    "name": "St. James Goldenacre",
+    "rate": 2,
+    "osm": "way/82467198",
+    "wikidata": "Q5580068",
+    "kinds": "sport,religion,churches,interesting_places,stadiums,other_churches",
+    "point": {
+      "lon": -3.208938,
+      "lat": 55.970493
+    }
+  },
+  {
+    "xid": "W22415647",
+    "name": "London Road Gardens",
+    "rate": 2,
+    "osm": "way/22415647",
+    "wikidata": "Q54869777",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.176909,
+      "lat": 55.957119
+    }
+  },
+  {
+    "xid": "W78693281",
+    "name": "St Andrew Square Garden",
+    "rate": 2,
+    "osm": "way/78693281",
+    "wikidata": "Q7592419",
+    "kinds": "gardens_and_parks,urban_environment,cultural,interesting_places",
+    "point": {
+      "lon": -3.193164,
+      "lat": 55.954227
+    }
+  },
+  {
+    "xid": "N4621268790",
+    "name": "Woman and Child",
+    "rate": 2,
+    "osm": "node/4621268790",
+    "wikidata": "Q4768256",
+    "kinds": "urban_environment,cultural,interesting_places,sculptures",
+    "point": {
+      "lon": -3.206136,
+      "lat": 55.946903
+    }
+  },
+  {
+    "xid": "N5139932483",
+    "name": "William Knox",
+    "rate": 2,
+    "osm": "node/5139932483",
+    "wikidata": "Q8014093",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.175864,
+      "lat": 55.953697
+    }
+  },
+  {
+    "xid": "N5139932461",
+    "name": "Andrew Fyfe",
+    "rate": 2,
+    "osm": "node/5139932461",
+    "wikidata": "Q4757036",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.176484,
+      "lat": 55.953934
+    }
+  },
+  {
+    "xid": "N5139932462",
+    "name": "Archibald Elliot",
+    "rate": 2,
+    "osm": "node/5139932462",
+    "wikidata": "Q4786305",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.176328,
+      "lat": 55.953667
+    }
+  },
+  {
+    "xid": "N5139932460",
+    "name": "David Bryce",
+    "rate": 2,
+    "osm": "node/5139932460",
+    "wikidata": "Q5231854",
+    "kinds": "historic,monuments_and_memorials,interesting_places,monuments",
+    "point": {
+      "lon": -3.176478,
+      "lat": 55.953289
+    }
+  },
+  {
+    "xid": "W88845257",
+    "name": "The Edinburgh Hebrew Congregation",
+    "rate": 2,
+    "osm": "way/88845257",
+    "wikidata": "Q16920394",
+    "kinds": "religion,synagogues,interesting_places",
+    "point": {
+      "lon": -3.174864,
+      "lat": 55.937893
+    }
+  },
+  {
+    "xid": "W41454792",
+    "name": "Greyfriars Charteris Centre",
+    "rate": 2,
+    "osm": "way/41454792",
+    "wikidata": "Q3815598",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.181126,
+      "lat": 55.945683
+    }
+  },
+  {
+    "xid": "W232922753",
+    "name": "Quaker Meeting House",
+    "rate": 2,
+    "osm": "way/232922753",
+    "wikidata": "Q23463517",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.193603,
+      "lat": 55.94886
+    }
+  },
+  {
+    "xid": "Q6825052",
+    "name": "Metropolitan Community Church of Edinburgh",
+    "rate": 2,
+    "wikidata": "Q6825052",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.19111,
+      "lat": 55.947498
+    }
+  },
+  {
+    "xid": "Q26847027",
+    "name": "Museum of Scotland",
+    "rate": 2,
+    "wikidata": "Q26847027",
+    "kinds": "museums,cultural,interesting_places,other_museums",
+    "point": {
+      "lon": -3.190556,
+      "lat": 55.946945
+    }
+  },
+  {
+    "xid": "Q38820228",
+    "name": "Vue Edinburgh",
+    "rate": 2,
+    "wikidata": "Q38820228",
+    "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places",
+    "point": {
+      "lon": -3.187842,
+      "lat": 55.953915
+    }
+  },
+  {
+    "xid": "Q5181727",
+    "name": "Craigmillar Park Church",
+    "rate": 2,
+    "wikidata": "Q5181727",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.23683,
+      "lat": 55.9184
+    }
+  },
+  {
+    "xid": "Q31118002",
+    "name": "Edinburgh Castle",
+    "rate": 2,
+    "wikidata": "Q31118002",
+    "kinds": "fortifications,historic,interesting_places,hillforts",
+    "point": {
+      "lon": -3.19963,
+      "lat": 55.948349
+    }
+  },
+  {
+    "xid": "Q31941612",
+    "name": "Capitol Theatre",
+    "rate": 2,
+    "wikidata": "Q31941612",
+    "kinds": "theatres_and_entertainments,cultural,cinemas,interesting_places,casino,adult",
+    "point": {
+      "lon": -3.171744,
+      "lat": 55.968723
+    }
+  },
+  {
+    "xid": "Q4870526",
+    "name": "Battle of Boroughmuir",
+    "rate": 2,
+    "wikidata": "Q4870526",
+    "kinds": "battlefields,historic,historical_places,interesting_places",
+    "point": {
+      "lon": -3.183333,
+      "lat": 55.933334
+    }
+  },
+  {
+    "xid": "Q25171656",
+    "name": "Gateway Theatre",
+    "rate": 2,
+    "wikidata": "Q25171656",
+    "kinds": "theatres_and_entertainments,cultural,cinemas,interesting_places",
+    "point": {
+      "lon": -3.182652,
+      "lat": 55.95977
+    }
+  },
+  {
+    "xid": "Q28966558",
+    "name": "Palladium Theatre, Edinburgh",
+    "rate": 2,
+    "wikidata": "Q28966558",
+    "kinds": "architecture,tourist_facilities,historic_architecture,theatres_and_entertainments,cultural,cinemas,nightclubs,interesting_places,destroyed_objects,adult,music_venues,foods,bars",
+    "point": {
+      "lon": -3.203,
+      "lat": 55.945
+    }
+  },
+  {
+    "xid": "Q18085736",
+    "name": "Newington Cemetery",
+    "rate": 2,
+    "wikidata": "Q18085736",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.1651,
+      "lat": 55.9314
+    }
+  },
+  {
+    "xid": "N462244198",
+    "name": "Portobello Baptist Church",
+    "rate": 5,
+    "osm": "node/462244198",
+    "wikidata": "Q17810786",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.113668,
+      "lat": 55.952423
+    }
+  },
+  {
+    "xid": "N2934543737",
+    "name": "Stills",
+    "rate": 5,
+    "osm": "node/2934543737",
+    "wikidata": "Q17801846",
+    "kinds": "museums,cultural,interesting_places,art_galleries",
+    "point": {
+      "lon": -3.190214,
+      "lat": 55.950676
+    }
+  },
+  {
+    "xid": "W302939037",
+    "name": "",
+    "rate": 5,
+    "osm": "way/302939037",
+    "wikidata": "Q17571044",
+    "kinds": "fountains,historic,monuments_and_memorials,urban_environment,cultural,interesting_places,monuments",
+    "point": {
+      "lon": -3.172926,
+      "lat": 55.952595
+    }
+  },
+  {
+    "xid": "W28920775",
+    "name": "Flodden Wall",
+    "rate": 5,
+    "osm": "way/28920775",
+    "wikidata": "Q56663271",
+    "kinds": "fortifications,defensive_walls,historic,interesting_places",
+    "point": {
+      "lon": -3.182609,
+      "lat": 55.948593
+    }
+  },
+  {
+    "xid": "W60613192",
+    "name": "Flodden Wall",
+    "rate": 5,
+    "osm": "way/60613192",
+    "wikidata": "Q56664476",
+    "kinds": "fortifications,defensive_walls,historic,interesting_places",
+    "point": {
+      "lon": -3.196939,
+      "lat": 55.946178
+    }
+  },
+  {
+    "xid": "W60613191",
+    "name": "Telfer Wall",
+    "rate": 5,
+    "osm": "way/60613191",
+    "wikidata": "Q56664476",
+    "kinds": "fortifications,defensive_walls,historic,interesting_places",
+    "point": {
+      "lon": -3.196033,
+      "lat": 55.945728
+    }
+  },
+  {
+    "xid": "W27144663",
+    "name": "North Merchiston Cemetery",
+    "rate": 5,
+    "osm": "way/27144663",
+    "wikidata": "Q56630874",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.229065,
+      "lat": 55.936905
+    }
+  },
+  {
+    "xid": "W326360980",
+    "name": "Dalry Cemetery",
+    "rate": 5,
+    "osm": "way/326360980",
+    "wikidata": "Q56630924",
+    "kinds": "cemeteries,historic,burial_places,interesting_places",
+    "point": {
+      "lon": -3.223902,
+      "lat": 55.93996
+    }
+  },
+  {
+    "xid": "W168909786",
+    "name": "Pilrig Church Hall",
+    "rate": 5,
+    "osm": "way/168909786",
+    "wikidata": "Q17570629",
+    "kinds": "religion,other_temples,interesting_places",
+    "point": {
+      "lon": -3.178345,
+      "lat": 55.964081
+    }
+  },
+  {
+    "xid": "W155797487",
+    "name": "St Mark's Unitarian Church",
+    "rate": 5,
+    "osm": "way/155797487",
+    "wikidata": "Q17810962",
+    "kinds": "religion,churches,interesting_places,other_churches",
+    "point": {
+      "lon": -3.205427,
+      "lat": 55.948463
+    }
+  }
+]
