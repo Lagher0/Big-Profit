@@ -41,7 +41,7 @@
   <header style="background-color:#00abd1;margin:none;position:absolute;padding:1em;width:100%;font-size:2em; z-index:2; color:white"><center>Score: {{dahunt.score}} </center></header>
 
 <div id = "promptwindow" style="z-index:3;position:absolute;background-color:#00abd1;border-radius:1em;border:solid white medium; color:white; font-size:2em; padding:0.5em; bottom:40%;top:30%;right:10%;left:10%">
-  <center><div style="font-family:'Pacifico';font-size:1em;margin-bottom:0.5em">Your Task:</div>Go to {{ dahunt.locations.0.1}}.<br><button class="button">Accept</button><button class="button">Reject</button> </center></div>
+  <center><div style="font-family:'Pacifico';font-size:1em;margin-bottom:0.5em">Your Task:</div>Go to {{ dahunt.locations.0.1}}.<br><button class="button" id="accept">Accept</button><button class="button" id="decline">Decline</button> </center></div>
 <div id='map' style='margin:0;width: 100%; bottom:0;top:0;right:0;left:0;position:absolute;z-index:-1;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiYmlncHJvZml0IiwiYSI6ImNrNzhkc240aTBoa2Mza29kdDlicG15NDcifQ.dR8hbbiQuJlUPsyrcUrRiA';
@@ -108,6 +108,7 @@ map.addLayer(
         function(error, image) {
             if (error) throw error;
             map.addImage('cat', image);
+
             map.addSource('point', {
                 'type': 'geojson',
                 'data': {
@@ -150,7 +151,14 @@ var marker = new mapboxgl.Marker({
   console.log("{{ dahunt.locations.0}}");
   console.log("{{dahunt.start_time}}");
   console.log("{{dahunt.duration}}");
+  console.log("{{dahunt.init_loc}}");
 
+$("#accept").click(function(){
+  $("#promptwindow").hide();
+});
+$("#decline").click(function(){
+  $("#promptwindow").hide();
+});
 </script>
 </body>
 </html>
