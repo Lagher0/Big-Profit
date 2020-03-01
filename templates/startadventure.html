@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <title>Day Out Edinburgh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=400, initial-scale=1, shrink-to-fit=yes">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Pacifico&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <style>
+  body{
+    font-size:3vw;
+    background-color: #99dae8;
+    font-family: 'Alegreya Sans SC';
+    max-width:100%;
+    margin:0;
+    padding:0
+  }
+  </style>
+</head>
+<body>
+  <header style="background-color:#00abd1;margin:none;padding:1em;width:100%;font-size:2em; color:white"><center>Score: {{score}}</center></header>
+
+  <script>
+  console.log("{{ time_option }}");
+  console.log("{{ category }}");
+  console.log("{{ distance_option }}");
+</script>
+</body>
+</html>
