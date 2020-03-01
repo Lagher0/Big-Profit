@@ -74,6 +74,7 @@ locs=[('Edinburgh castle','historic',32,10),
       ('Pollock Halls','uni-life',44,1),
       ('Princes Street','shopping area',30,15)]
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Gets the table if it exits
 c.execute(''' SELECT count(name) FROM sqlite_master WHERE type='table' AND name='locations' ''')
 #if the count is 1, then table exists
@@ -91,6 +92,9 @@ else:
 
 =======
 '''c.executemany('INSERT INTO locations VALUES (?,?,?,?)',locs)'''
+=======
+c.executemany('INSERT INTO locations VALUES (?,?,?,?)',locs)
+>>>>>>> e0ce9bfe733cad04cd8a804b69b4b6c68e7ec6d6
 '''c.execute( CREATE TABLE locations (name text, type text, lat real, lon real) )'''
 >>>>>>> 11cdba47d40ee5774fe219471be64ee5302ebbce
 for row in c.execute('SELECT * FROM locations '):
